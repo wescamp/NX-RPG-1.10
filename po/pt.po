@@ -1,0 +1,2968 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: branch 1.10\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2012-06-30 09:29-0400\n"
+"PO-Revision-Date: 2012-06-30 09:29-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: NX-RPG/_main.cfg:46
+msgid ""
+"Music add-on “<i>NX-Music</i>” is <b>not</b> currently installed. Custom "
+"music will not be played."
+msgstr ""
+
+#: NX-RPG/_main.cfg:54
+msgid "Version"
+msgstr ""
+
+#: NX-RPG/_main.cfg:55
+msgid "(requires Wesnoth 1.9.10 or later — 1.10.0 or later recommended)"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:21
+msgid "Creator and Lead Designer"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:28
+msgid "Campaign Maintenance"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:34
+msgid "Coding Assistants "
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:78
+msgid "Art Assistants"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:5
+msgid "RftS-1"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:6
+msgid "Revenge from the Shadows:"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:17
+msgid ""
+"A shadow lengthens across the land; an evil foe has returned to seek his "
+"revenge. Rhyan and his band must travel across a land none of them know to "
+"stop him and save the Empire of Wesnoth, even as their enemy may have "
+"schemes that involve them themselves."
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:19
+msgid "(Intermediate level, 2 of 13 scenarios complete.)"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Ghost"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Nightmare)"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Hard)"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Banebow"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Dark Sorcerer"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Easy)"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Normal)"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Ancient Lich"
+msgstr ""
+
+#. [campaign]: id=Revenge_from_the_Shadows_1
+#. [endlevel]
+#: NX-RPG/episode1/menu.cfg:24 NX-RPG/macros/scenario-utils.cfg:38
+msgid "To be continued..."
+msgstr ""
+
+#. [scenario]: id=01_Awakening
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:14
+msgid "Awakening"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:35
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:35
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:23
+msgid "team_name^Rhyan"
+msgstr ""
+
+#. [side]
+#. [side]: type=Deathblade, id=Revekel
+#. [side]: type=Saurian Flanker, id=Yerar
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:54
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:98
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:133
+msgid "team_name^Guards"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:253
+msgid "Where...where am I? What happened?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:258
+msgid ""
+"I sense...something...evil. There is a strange...atmosphere about this "
+"place, familiar, but I cannot definitely place it. I should get out of here "
+"and try to find the others."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:263
+msgid ""
+"Now...that gate doesn't look too sturdy. It should come down without much-"
+msgstr ""
+
+#. [unit]: id=Galthur, type=Dwarvish Fighter, role=dying_prisoner
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:268
+msgid "Galthur"
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:280
+msgid "Who...are you?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:285
+msgid "Huh?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:317
+msgid "Who are <i>you</i>?"
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:322
+msgid ""
+"I don't really know; it was such a time ago I was brought here...even how "
+"long I've been here eludes me. I don't even know if my friends that were "
+"brought too are still alive."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:327
+msgid "So it is the same with mine."
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:332
+msgid ""
+"<i>(sigh)</i> No matter...if they are alive in this place they will suffer. "
+"Better to be dead. But you...you must escape... You must...He must be "
+"stopped. All of this must be stopped. You have a chance to go. Please take "
+"it."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:336
+msgid "Who is 'He'? And why did you never attempt an escape yourself?"
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:341
+msgid ""
+"I heard the guards talking of a 'Master', but I don't know anything more. I "
+"feel a dark presence, though. It seems akin to the evil I felt when that..."
+"evil...controlled the Camran Fortress. Do you not feel it? And as for "
+"escape, I was never strong enough to try; I wasn't as healthy as you are "
+"now, even when I was first thrown into this vile pit."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:346
+msgid ""
+"I feel...something, though like to you it remains familiar, yet at the same "
+"time, unfamiliar. But...it's evil, definitely evil...and...hungry..."
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:351
+msgid ""
+"Please... You must get out. Here; take this. It's all I can do. It should "
+"help if there are any undead guarding this place."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:356
+msgid "But-"
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:361
+msgid ""
+"I am not long alive anyway... With any luck I will have a second life as an "
+"undead warrior. If I do, and you come across me, then you can give me a more "
+"fitting rest. Until then...now please...go."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:373
+msgid ""
+"Rhyan stood staring down at the body of the dead dwarf for a long time, then "
+"bent and took the potion he had offered."
+msgstr ""
+
+#. [object]: id=Galthur_potion
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:384
+msgid "Holy Water"
+msgstr ""
+
+#. [object]: id=Galthur_potion
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:386
+msgid ""
+"This water will give all weapons <i>arcane</i> damage until the end of the "
+"current scenario."
+msgstr ""
+
+#. [unit]: type=Red Mage, id=Lemmory, role=shopkeeper
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:413
+msgid "Lemmory"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:422
+msgid "What the-"
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:427
+msgid "Ugh...where am I... That didn't work too well..."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:432
+msgid "Uh?"
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:437
+msgid ""
+"Oh! Who are you? I'm sorry...that teleport spell didn't work well... I guess "
+"it sill possesses some problems."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:442
+msgid "Oh..."
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:447
+msgid ""
+"I was working in my shop, you see, and I came across a new spell in one of "
+"my books...and I'm afraid I foolishly tried it out. Obviously it has gone "
+"horribly wrong."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:452
+msgid ""
+"Oh. Well, I too know not where I am, so that makes two of us in that regard. "
+"All I know is someone brought me here and..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:457
+msgid ""
+"For a few minutes, Rhyan told the new arrival of all that had transpired."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:463
+msgid ""
+"...so I was about to escape and search for my companions, when you appeared "
+"out of thin air."
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:468
+msgid ""
+"Humm...I think I can help you. I know these kinds of enemies; they are "
+"almost always always quite difficult to defeat. You'll need help... If "
+"only...that's it! I will scatter several locations as you travel, that, when "
+"entered, will allow you access to my wares. They'll look like an old, ruined "
+"tent, so they won't attract too much attention. Just leave some gold, it'll "
+"find it's way to me. Would that help?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:473
+msgid "Greatly!"
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:478
+msgid ""
+"Good. Unfortunately, I am quite low on supplies at the moment; I'll try to "
+"re-stock as soon as possible, so you'll have more options to choose from. "
+"And now..."
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:504
+msgid "There."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:509
+msgid "Thank you; this should help a great deal."
+msgstr ""
+
+#. [message]: speaker=Lemmory
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:514
+msgid ""
+"Good. Now I must go before my remaining wares get stolen. Good luck to you."
+msgstr ""
+
+#. [event]: (id=Rhyan) (29,29,35,33) (28,29,32,33) nw}, (id=Galthur) facing se}, (id=Rhyan) (33,28) (31,28)}, (id=Rhyan) (28) (26) ne}, (id=Lemmory) (30) (25) sw}
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:528
+msgid "Explore and find your companions"
+msgstr ""
+
+#. [event]
+#. [event]: (id=Rhyan) (29,29,35,33) (28,29,32,33) nw}, (id=Galthur) facing se}, (id=Rhyan) (33,28) (31,28)}, (id=Rhyan) (28) (26) ne}, (id=Lemmory) (30) (25) sw}
+#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#. [event]: id=messenger (53) (35)}
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:530
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:884
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:326
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:712
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:108
+msgid "Death of Rhyan"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:556
+msgid ""
+"More gates…and passages. Surely one of them must be the way out of this pit. "
+"Still, first I must look for my friends. Hopefully that are well…and alive. "
+"Plus, those gates look…stronger than these were. Probably'll need a key to "
+"get through them. If it is the way out, guess we'll be looking for that as "
+"well. Typical. Strange these seem so easy to break down, though…"
+msgstr ""
+
+#. [pick_up_item]: id=scen1_key
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:572
+msgid "Key"
+msgstr ""
+
+#. [pick_up_item]: id=scen1_key
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:574
+msgid ""
+"An old, but well taken care of, key. It appears to be down here for "
+"safekeeping and can be used to open certain locked gates."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:589
+msgid "I've found it! The key is ours!"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:594
+msgid "Good! Now we can escape this cesspool."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:599
+msgid "Excellent! Bring it here; I want to get out as fast as possible."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:671
+msgid "Finally! I'm out!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:678
+msgid "Hullo, who's this?"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:682
+msgid "Same to you, dwarf. Shut up."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:686
+msgid "<i>(chuckles)</i>"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:695
+msgid "Norethial! You're ok! But where are the others?"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:699
+msgid "I don't know... "
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:703
+msgid "I hope they too are unhurt..."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:744
+msgid "And you are?"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:748
+msgid "I could ask you the same."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:752
+msgid ""
+"<i>(scoff)</i> Yeah well, I'll go with you, and we can settle this later, eh?"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:796
+msgid "This blasted gate is open! Let's get out of he-"
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:808
+msgid "Ssssss...hehe.... Where do you think you're going?"
+msgstr ""
+
+#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:822
+msgid "Bor"
+msgstr ""
+
+#. [message]: speaker=Bor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:826
+msgid "Hehehe boss ah' we gonna bash 'dem into 'de floor?"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:831
+msgid "Who are you and what do you want with us!"
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:836
+msgid ""
+"Who I am and what he wants with you are none of your business. But I think "
+"it's enough to say you have something he wants. Though could you maybe ask "
+"something a bit more original? <i>Everyone</i> asks that. It's getting "
+"boring."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:841
+msgid "And just who might 'he' be?"
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:846
+msgid ""
+"<i>(smiling evilly)</i> You'll find out soon enough. Now why don't you just "
+"turn around and go back into those cells before we are forced to hurt you?"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:851
+msgid "<i>NEVER!!!</i>"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:856
+msgid "You'll have to make us. We have no intention of going anywhere."
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:861
+msgid ""
+"You have chosen unwisely; you cannot win. But...your fate is your own "
+"choosing...on your heads...be it."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:866
+msgid ""
+"Are you really as formidable as you claim, or are you just all hot air from "
+"a dwarfish furnace? Because I have seen some of those get pretty hot; looks "
+"like you've spent some time around them...hehehe."
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:871
+msgid ""
+"Enough of this! Bor, smash them and return them to the cells! But don't kill "
+"them. Yet."
+msgstr ""
+
+#. [message]: speaker=Bor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:876
+msgid "Hehehe...this is gonna be fun!"
+msgstr ""
+
+#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:882
+msgid "Defeat all guard leaders"
+msgstr ""
+
+#. [event]
+#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#. [event]: id=messenger (53) (35)}
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:885
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:327
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:713
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:109
+msgid "Death of Norethial"
+msgstr ""
+
+#. [event]
+#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#. [event]: id=messenger (53) (35)}
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:886
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:328
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:714
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:110
+msgid "Death of Galamor"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:911
+msgid ""
+"Oh great...giants rats. Just what we need on top of all the rest...hopefully "
+"they don't-"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:916
+msgid "<i>(hisss)</i>"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:921
+msgid "...bite..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:935
+msgid ""
+"<i>(HIISSSSSSSSSS)</i> The Master will have His revenge, no matter what the "
+"cost!"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:940
+msgid ""
+"You're not going anywhere until you tell us what you've done with the rest."
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:945
+msgid "Oh, they're not here. HAHAHAHAHA!"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:950
+msgid "Then where are they!"
+msgstr ""
+
+#. [message]: speaker=Yerear
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:955
+msgid "You'll find out. HAHAha…ha…heh…uh…ugh…"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:969
+msgid ""
+"What's the point? I am already dead. I cannot die again, but unfortunately "
+"for you, <i>you</i> can"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:983
+msgid ""
+"I fall, but death will always follow you; you will never escape its cold "
+"grasp!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:995
+msgid "Somehow I think already being dead doesn't really help."
+msgstr ""
+
+#. [check_for_character]: id=Norethial, type=Elvish Sorceress, role=hero
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1006
+#: NX-RPG/macros/character_defines.cfg:34
+msgid "Norethial"
+msgstr ""
+
+#. [check_for_character]: id=Galamor, type=Dwarvish Scout, role=hero
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1017
+#: NX-RPG/macros/character_defines.cfg:52
+msgid "Galamor"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1026
+msgid ""
+"They have been defeated...but the answers we seek still elude us. Who is "
+"this 'he' they speak of? No matter, though, let us just leave this place; "
+"it's too disturbing."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1031
+msgid "Whoever did this will pay!!!"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1036
+msgid ""
+"Calm down, Galamor, please. Anger will get us nowhere. I too am angry at "
+"this person, whoever he is, but I'm not raging."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1041
+msgid ""
+"Shut up, human. Let's just go; I want to find my friends. Galthur is already "
+"dead, from what I gather."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1046
+msgid "Sorry Rhyan, I had to tell him. You told me; it was only fair."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1051
+msgid "<i>(shrug)</i> And <i>you</i> shut up dwarf."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/01_Awakening.cfg:1056
+msgid ""
+"<i>(giggle)</i> Let's go, in any case. Seems the rest aren't here, anyway..."
+msgstr ""
+
+#. [scenario]: id=02_Unknown_Land
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:8
+msgid "Unknown Land"
+msgstr ""
+
+#. [side]: type=Dark Adept, id=Ladmur
+#. [side]: type=Fugitive, id=Relmor
+#. [side]: type=Orcish Slurbow, id=Gerok
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:60
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:83
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:105
+msgid "team_name^Encamped Enemies"
+msgstr ""
+
+#. [side]: type=Dark Adept, id=Ladmur
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:63
+msgid "Ladmur"
+msgstr ""
+
+#. [side]: type=Orcish Slurbow, id=Gerok
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:86
+msgid "Gerok"
+msgstr ""
+
+#. [side]: type=Fugitive, id=Relmor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:108
+msgid "Relmor"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:129
+msgid "team_name^Dragons"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:295
+msgid ""
+"Huh…if that's the exit it's <i>really</i> dark…and…wet. Ugh. Probably "
+"something waiting for us, too."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:300
+msgid ""
+"We've got to go out there; we have no other choice but to sit there doing "
+"nothing!"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:305
+msgid "<i>(grumble)</i>"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:310
+msgid ""
+"Please…stop bickering you two. Let's just get out there and hope to get some "
+"answers. Plus, I like rain."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:315
+msgid "Great! Don't you know dwarves hate water? <i>(mumble)</i>"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:320
+msgid "<i>(rolls eyes)</i>"
+msgstr ""
+
+#. [event]: id=messenger (53) (35)}
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:324
+msgid "Explore outside"
+msgstr ""
+
+#. [message]: speaker=Ladmur
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:346
+msgid ""
+"Well well well! Look what we have here. Three little prisoners who have lost "
+"their way."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:351
+msgid "Shut up and tell us why we're here."
+msgstr ""
+
+#. [message]: speaker=Ladmur
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:356
+msgid ""
+"Heeheehee. You want answers? Well…I dunno…. I think you'll just have to find "
+"them yourselves."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:361
+msgid "Common…I know you know something."
+msgstr ""
+
+#. [message]: speaker=Ladmur
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:366
+msgid "Er…oh just keep quiet pretty."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:371
+msgid "Why, are you afraid of me?"
+msgstr ""
+
+#. [message]: speaker=Ladmur
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:376
+msgid "Just...just shut up."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:381
+msgid "We'll find them. And you shut up."
+msgstr ""
+
+#. [message]: speaker=Ladmur
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:386
+msgid "Hehehehe. You don't even know where you <i>are</i> HAHAHAHAHA."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:392
+msgid ""
+"The adept burst out laughing, seemingly at some inside joke, while the three "
+"looked on blankly…"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:422
+msgid "This is going to take longer than I thought it would..."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:427
+msgid "Get used to it."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:441
+msgid "<i>*gasp* (whispering)</i> Please… don't…"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:446
+msgid "Why not?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:451
+msgid ""
+"<i>(whispering)</i> I can help you. I never wanted to fight for these… "
+"abominations."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:456
+msgid "What?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:461
+msgid ""
+"<i>(whispering)</i> Leave it to me; use my troops. <i>(louder)</i> "
+"Aggggghhhh… Curse you!"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:477
+msgid ""
+"<i>(aside)</i> I don't know is he is on our side or not; I don't think we "
+"should trust him..."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:482
+msgid ""
+"<i>(aside)</i> *nods* But we need the troops… It would help us out a lot."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:487
+msgid "<i>(aside)</i> True… Fine, then; let us use them."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:492
+msgid "Dark artist scum..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:517
+msgid "Ahhh! Seems that adept left us some gold. Excellent."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:535
+msgid "Ah...death...I cannot see...what you wish..."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:540
+msgid "What in the King's name are you babbling about?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:549
+msgid ""
+"You will never escape. This is your...worst nightmare. You will see..you "
+"will see...very soon <i>(augh)</i>"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:589
+msgid "Stored possible spawn locations"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:614
+msgid "Stored possible border hexes"
+msgstr ""
+
+#. [then]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:626
+msgid "Lower right quadrant used for spawn"
+msgstr ""
+
+#. [then]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:634
+msgid "Upper right quadrant used for spawn"
+msgstr ""
+
+#. [else]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:638
+msgid "Other quadrant used for spawn"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:670
+msgid "I feel uneasy… We should leave. Now. HURRY!!!"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:675
+msgid "Aye, lass. 'Tis true."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:680
+msgid "The mountain pass. Go!."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:685
+msgid "Uh…which one?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:690
+msgid "Doesn't matter, just go!"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:710
+msgid "Escape through one of the mountain passes"
+msgstr ""
+
+#. [scenario]: id=03_Fleeing_the_Swarm
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:8
+msgid "Fleeing the Swarm"
+msgstr ""
+
+#. [side]: id=Rarok
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:33
+msgid "Rarok"
+msgstr ""
+
+#. [side]
+#. [side]: id=Rarok
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:36
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:62
+msgid "team_name^Enemies"
+msgstr ""
+
+#. [side]: id=Dulaithol
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:50
+msgid "Dulaithol"
+msgstr ""
+
+#. [side]: id=Dulaithol
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:54
+msgid "team_name^Dwarves"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:77
+msgid "Well … I enjoy the mountains, but I would really like some caves."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:82
+msgid ""
+"<i>(rolls eyes)</i> In case you've forgotten, we're on the run from a horde "
+"flesh-eating bats, and you're complaining about the lack of caves?!"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:87
+msgid "We could, er, <i>hide</i> in them?"
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:92
+msgid ""
+"Good point. But I don't see any, nor have I seen any since we escaped that "
+"prison, so maybe we should keep moving before we get eaten?"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:97
+msgid "Eh … good point"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:102
+msgid "<i>(rolls eyes again)</i>"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:106
+msgid "Continue through the pass"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:133
+msgid ""
+"No! We've delayed too long, and now we have to deal with swarms of bats! I "
+"hate bats…"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:144
+msgid ""
+"We still might be able to, if we can reach the cave. Maybe the dwarves know "
+"a hidden passage. If not..."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:149
+msgid "So let's go, or we're dead!"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:8
+msgid "Warning"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:10
+msgid ""
+"PLEASE NOTE:\n"
+"-Some scenarios in this campaign are not as straightforward as most "
+"scenarios in other campaigns, so please carefully examine the scenario "
+"objectives. Unless it is necessary, I would not recommend mindlessly "
+"eradicating every enemy in sight.\n"
+"\n"
+"-Also, this campaign incorporates certain elements of SurvivalXtreme, such "
+"as large gold amounts, shops, and continuous attacking, although a lot of "
+"these have been modified to suit this campaign. If get stuck, you can always "
+"read the <i>Help</i> option in the right-click menu.\n"
+"\n"
+"-Good luck and have fun!"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:26
+msgid ""
+"I write these words in a hope that one day, our descendants might know of "
+"the history of the Shadow War, and what was the cause and price of that "
+"terrible confrontation. But it was only terrible to those who knew the true "
+"meaning of what was taking place at the time, of the escalated number of "
+"raids of undead on the northern lands, or the strange powers they seemed to "
+"wield, for more powerful the they should normally have possessed. For the "
+"evil being behind this all was content to keep hidden in the darkness, his "
+"identity cloaked in shadow, content to wreck his revenge in a war few would "
+"ever know had even begun."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:31
+msgid ""
+"In the years before that event, five great heroes, of which I was one, did "
+"many great deeds and faced many evils. We defeated Acamanthus, the Wizard of "
+"War, razed the Castle of Cantar, survived Lord Huron's Labyrinth, defeated "
+"the Dark Lord, and many others. The places of these battles are gone now, "
+"reduced to rubble or buried under the shifting sands that are all that is "
+"left of some places."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:36
+msgid ""
+"The Great Council of Elensefar decided to honor us, my friends and me, with "
+"a great banquet. Did I know, then, what was to take place? Did I sense the "
+"impending war? I do not know, even now. But even if I did not, events had "
+"already taken place that, if not contained, would cast Wesnoth into years of "
+"chaos."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:46
+msgid ""
+"I will always remember the feast that night, for it was the last peace we "
+"would have for a long time to come. As it progressed, my friends and I "
+"walked around the chamber, the Council Hall. There was a moment when our "
+"paths collided, and we found ourselves together at the center of the room. "
+"Suddenly, I heard a rushing sound, and felt the sensation of falling into "
+"darkness. As I did so, I vaguely remember seeing, through my half-closed "
+"eyed, my friends falling beside me. Then I knew no more."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:51
+msgid ""
+"I awoke to find myself alone on a dark, cold floor in a strange structure. "
+"My memory was hazy, but the last I remembered was being knocked unconscious "
+"at the feast ... when? No recollection remained, and no sign of my "
+"companions was to be had. And I began to wonder, what was this place? Who "
+"brought us here? And why ... ?"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:59
+msgid ""
+"We had found nothing. The place had been guarded - reasonable well, too - "
+"and yet…nothing. We still did not know who had brought us here, for what "
+"purpose, what was going to become of us next, or even why we were still "
+"alive. Our only clue was a faint sense of … unease, unbalance, something "
+"wrong - that was the only way we could describe it. There was something "
+"something seeming to run through the essence of our surroundings, an "
+"undercurrent of … evil … I wondered whether it was the influence Galthur had "
+"mentioned before he died. He had spoken of the Camran Fortress; that "
+"bothered me. We had killed the thing that had resided there ... at least we "
+"thought we had ..."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:62
+msgid ""
+"Putting those thoughts aside, we made for the exit. Outside there emanated "
+"the sound of rain pounding the ground. We decided to explore."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:70
+msgid ""
+"Some fools will tell you that to flee is cowardice. That is not the case. "
+"There are times for flight and times to flee; being pursued by a horde of "
+"relentless beasts when you are tired and weakened from combat is surely a "
+"latter case. And so we did, but barely were we able to escape through the "
+"mountain pass ahead of our pursuers. We ran, and ran, and ran, and ever "
+"behind us we heard the tell-tale sound of the bats' wings beating the air as "
+"they pursued us, hour after hour, night after day. Sometimes it seemed as if "
+"what followed us was not made of living tissue but metal, so persistent were "
+"they."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/storytext.cfg:73
+msgid ""
+"They continued following us as we headed through the mountains. In fact, the "
+"terrain was composed almost exclusively of rugged ground, unfamiliar ground "
+"as such we could see. Some of the peaks around us gleamed white with snow "
+"and disappeared into the mist of the clouds. Slowly, the pass widened out "
+"until one day we stumbled into a smallish valley, weak from flight, ready to "
+"collapse. We finally had been able to put some distance between us and our "
+"pursuers, but we knew it was only a temporary reprieve. We decided to take "
+"the time we had, recover our strength, and try to fight the swarm when it "
+"appeared; we were sure they had not given up their pursuit. They seemed to "
+"be possessed with an over zealous desire to capture us, almost as if someone "
+"was pulling the strings. But who? And why? We still didn't have the "
+"answers..."
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:359
+msgid "Classes"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:366
+msgid "Alignments"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:373
+msgid "Traits"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:380
+msgid ""
+"Here you can choose a Class, Alignment, and Trait for the currently selected "
+"character. Select one option from each category. When you're satisfied, "
+"click Done. You cannot change your selections afterwards."
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:425
+msgid "Done"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:426
+msgid "Apply the currently selected options to the selected character and exit"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:427
+msgid "Cancel"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: NX-RPG/lua/gui/character_development.lua:428
+msgid "Exit and return to game without developing the selected character"
+msgstr ""
+
+#. [lua]: wml_actions.show_nx_help
+#: NX-RPG/lua/gui/help.lua:320
+msgid "Topics"
+msgstr ""
+
+#. [lua]: wml_actions.show_nx_help
+#: NX-RPG/lua/gui/help.lua:337
+msgid "Close"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:126
+msgid ""
+"Welcome to the inventory. Here you can view and manipulate all the items you "
+"are currently carrying, as well as those carried by allied units adjacent to "
+"you. Use the list to the left to choose whose inventory to see and "
+"manipulate, and use the checkboxes to the left of each item to select more "
+"than one at a time. You can mouse over the buttons for more info on their "
+"respective functions."
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:155
+msgid "Inventory"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:159
+msgid "Items"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:180
+msgid "Use Items"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:181
+msgid ""
+"Apply the currently selected items' effects to the current unit and any "
+"other applicable units"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:183
+msgid "Give Items"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:184
+msgid "Move the currently selected items the appropriate inventories"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:186
+msgid "Drop Items"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:187
+msgid ""
+"Drop the currently selected items. This will remove them from the any "
+"applicable inventories and place them in a chest for your allies to pick up"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:189
+msgid "Exit"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: NX-RPG/lua/gui/inventory.lua:190
+msgid "Exit the inventory and resume regular gameplay"
+msgstr ""
+
+#. [lua]: wml_actions.pick_up_item
+#: NX-RPG/lua/gui/item_pickup.lua:29
+msgid "Add To Inventory"
+msgstr ""
+
+#. [lua]: wml_actions.pick_up_item
+#: NX-RPG/lua/gui/item_pickup.lua:31
+msgid "Put Back Down"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:5
+msgid "Rhyan"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:18
+msgid "Garash"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:26
+msgid "Althugor"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:44
+msgid "Varuk"
+msgstr ""
+
+#. [object]
+#: NX-RPG/macros/items.cfg:24
+msgid "Chest with gold"
+msgstr ""
+
+#. [object]
+#: NX-RPG/macros/items.cfg:27
+msgid " gold found."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/macros/items.cfg:67
+msgid "Would you like to take this magical ring?"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/macros/items.cfg:69
+msgid "I'll leave it for another."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/macros/items.cfg:75
+msgid "I think I'll take and use it."
+msgstr ""
+
+#. [object]
+#: NX-RPG/macros/items.cfg:82
+msgid "Ring of Defense"
+msgstr ""
+
+#. [object]
+#: NX-RPG/macros/items.cfg:84
+msgid ""
+"You have found a strange, glowing ring. Wearing it will give its bearer +5% "
+"defense on all terrains."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/macros/items.cfg:111
+msgid "As the unit puts on the the ring, he feels a surge of new strength."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/items.cfg:123
+msgid "This is amazing! I…feel stronger! I wonder who the crafter was…"
+msgstr ""
+
+#. [print]
+#: NX-RPG/macros/mana_sys.cfg:46
+msgid "$mana_temp[$i].name| has $mana_temp[$i].id|.magic.rate| mana"
+msgstr ""
+
+#. [print]
+#: NX-RPG/macros/mana_sys.cfg:58
+msgid "$mana_temp[$i].name| has maximum mana"
+msgstr ""
+
+#. [part]
+#: NX-RPG/macros/scenario-utils.cfg:23
+msgid "Work in progress!"
+msgstr ""
+
+#. [part]
+#: NX-RPG/macros/scenario-utils.cfg:26
+msgid ""
+"This campaign is a work in progress, and you have just completed the last "
+"playable scenario. The next scenario is not available in this version, but "
+"you can play it in a future release if you keep this start-of-scenario saved "
+"game. For now, this is the end of the campaign.\n"
+"\n"
+"All feedback is welcome in the forum thread here: r.wesnoth.org/t35544 .\n"
+"\n"
+"    ― <i>The author</i>"
+msgstr ""
+
+#. [time]: id=indoors_darker
+#: NX-RPG/macros/schedules.cfg:6
+msgid "Indoors"
+msgstr ""
+
+#. [time]: id=dawn_rain
+#: NX-RPG/macros/schedules.cfg:16
+msgid "Rainy Dawn"
+msgstr ""
+
+#. [time]: id=morning_rain
+#: NX-RPG/macros/schedules.cfg:26
+msgid "Rainy Morning"
+msgstr ""
+
+#. [time]: id=afternoon_rain
+#: NX-RPG/macros/schedules.cfg:36
+msgid "Rainy Afternoon"
+msgstr ""
+
+#. [time]: id=dusk_rain
+#: NX-RPG/macros/schedules.cfg:46
+msgid "Rainy Dusk"
+msgstr ""
+
+#. [time]: id=first_watch_rain
+#: NX-RPG/macros/schedules.cfg:56
+msgid "Rainy First Watch"
+msgstr ""
+
+#. [time]: id=second_watch_rain
+#: NX-RPG/macros/schedules.cfg:66
+msgid "Rainy Second Watch"
+msgstr ""
+
+#. [then]
+#: NX-RPG/macros/spawners.cfg:207
+msgid "Spawn location randomly calculated"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/unit_deaths.cfg:58
+msgid "We...have failed..."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/macros/unit_deaths.cfg:64
+msgid "NO!!! Rhyan!!! We cannot continue without you!!!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/unit_deaths.cfg:72
+msgid "No...Rhyan...I have failed...<i>(ugh)</i>"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/macros/unit_deaths.cfg:78
+msgid "No........."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/unit_deaths.cfg:86
+msgid "Augh....see what I got by following you...."
+msgstr ""
+
+#. [message]: speaker=Norethial
+#: NX-RPG/macros/unit_deaths.cfg:92
+msgid "We have lost..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/unit_deaths.cfg:100
+msgid "<i>(ROOOAAARRRRR....)</i>"
+msgstr ""
+
+#. [message]: speaker=Althugor
+#: NX-RPG/macros/unit_deaths.cfg:106
+msgid "He was a good and loyal friend..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/unit_deaths.cfg:114
+msgid "Get ya' hands off a' me ya' foul creature!"
+msgstr ""
+
+#. [message]: speaker=Varuk
+#: NX-RPG/macros/unit_deaths.cfg:120
+msgid "We cannot hope to go one without one of our own. This is hopeless!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/macros/unit_deaths.cfg:128
+msgid "Ugh...I go now to join my orc brothers..."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/macros/unit_deaths.cfg:134
+msgid ""
+"Though our races have always been enemies, he was but to us a good friend..."
+msgstr ""
+
+#. [value]: id=lawful
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:8
+msgid "Lawful"
+msgstr ""
+
+#. [value]: id=lawful
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:10
+msgid ""
+"Lawful units receive +25% damage in daytime while receiving -25% damage "
+"reduction at night. Beside the general abilities available for all "
+"alignments, they can chose the following special abilities:\n"
+"-Heal+X\n"
+"-Fearless"
+msgstr ""
+
+#. [value]: id=neutral
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:16
+msgid "Neutral"
+msgstr ""
+
+#. [value]: id=neutral
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:18
+msgid ""
+"Neutral units don't receive any bonus or penalty, regardless of time of day. "
+"Beside the general abilities available for all alignments, they can chose "
+"the following special abilities:\n"
+"-Heal+X\n"
+"-Soulstealer"
+msgstr ""
+
+#. [value]: id=chaotic
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:24
+msgid "Chaotic"
+msgstr ""
+
+#. [value]: id=chaotic
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:26
+msgid ""
+"Chaotic units receive +25% damage at night while receiving -25% damage in "
+"daytime. Beside the general abilities available for all alignments, they can "
+"chose the following special abilities:\n"
+"-Soulstealer\n"
+"-Fearless"
+msgstr ""
+
+#. [value]: id=liminal
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:32
+msgid "Liminal"
+msgstr ""
+
+#. [value]: id=liminal
+#: NX-RPG/rpg_systems/character_development/alignments.cfg:34
+msgid ""
+"Liminal units receive +25% damage during twilight and dawn hours, while "
+"receiving -25% damage during day and nighttime. Beside the general abilities "
+"available for all alignments, they can chose the following special abilities:"
+msgstr ""
+
+#. [unit_type]: id=Northguard Warrior, race=northguard
+#. [value]: id=warrior
+#: NX-RPG/rpg_systems/character_development/classes.cfg:8
+#: NX-RPG/units/humans/Northguard_Warrior.cfg:5
+msgid "Warrior"
+msgstr ""
+
+#. [value]: id=warrior
+#: NX-RPG/rpg_systems/character_development/classes.cfg:10
+msgid "Warriors excel at melee combat."
+msgstr ""
+
+#. [value]: id=cleric
+#: NX-RPG/rpg_systems/character_development/classes.cfg:14
+msgid "Cleric"
+msgstr ""
+
+#. [value]: id=cleric
+#: NX-RPG/rpg_systems/character_development/classes.cfg:16
+msgid "Clerics excel at melee combat."
+msgstr ""
+
+#. [value]: id=ranger
+#: NX-RPG/rpg_systems/character_development/classes.cfg:20
+msgid "Ranger"
+msgstr ""
+
+#. [value]: id=ranger
+#: NX-RPG/rpg_systems/character_development/classes.cfg:22
+msgid "Rangers excel at ranged combat."
+msgstr ""
+
+#. [value]: id=mage
+#: NX-RPG/rpg_systems/character_development/classes.cfg:26
+msgid "Mage"
+msgstr ""
+
+#. [value]: id=mage
+#: NX-RPG/rpg_systems/character_development/classes.cfg:28
+msgid "Mages excel at ranged combat."
+msgstr ""
+
+#. [value]: id=rouge_warrior
+#: NX-RPG/rpg_systems/character_development/classes.cfg:32
+msgid "Rogue Warrior"
+msgstr ""
+
+#. [value]: id=rouge_warrior
+#: NX-RPG/rpg_systems/character_development/classes.cfg:34
+msgid ""
+"Rogue Warriors excel at melee combat, yet are still proficient in ranged "
+"combat."
+msgstr ""
+
+#. [value]: id=rouge_mage
+#: NX-RPG/rpg_systems/character_development/classes.cfg:38
+msgid "Rogue Mage"
+msgstr ""
+
+#. [value]: id=rouge_mage
+#: NX-RPG/rpg_systems/character_development/classes.cfg:40
+msgid ""
+"Rogue Mages excel at ranged combat, yet are still proficient in melee combat."
+msgstr ""
+
+#. [value]: id=strong
+#: NX-RPG/rpg_systems/character_development/traits.cfg:8
+msgid "Strong"
+msgstr ""
+
+#. [value]: id=strong
+#: NX-RPG/rpg_systems/character_development/traits.cfg:10
+msgid "+2 melee damage"
+msgstr ""
+
+#. [value]: id=dextrous
+#: NX-RPG/rpg_systems/character_development/traits.cfg:25
+msgid "Dextrous"
+msgstr ""
+
+#. [value]: id=dextrous
+#: NX-RPG/rpg_systems/character_development/traits.cfg:27
+msgid "+2 ranged damage"
+msgstr ""
+
+#. [value]: id=resilient
+#: NX-RPG/rpg_systems/character_development/traits.cfg:42
+msgid "Resilient"
+msgstr ""
+
+#. [value]: id=resilient
+#: NX-RPG/rpg_systems/character_development/traits.cfg:44
+msgid "Regenerates 8 hitpoints per turn"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: NX-RPG/rpg_systems/character_development/traits.cfg:54
+#: NX-RPG/rpg_systems/herodevel.cfg:560
+msgid "regenerates"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: NX-RPG/rpg_systems/character_development/traits.cfg:55
+#: NX-RPG/rpg_systems/herodevel.cfg:561
+msgid "female^regenerates"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: NX-RPG/rpg_systems/character_development/traits.cfg:56
+msgid ""
+"Regenerates: The unit will heal itself 8 HP per turn. If it is poisoned, the "
+"poison will be removed instead of being healed."
+msgstr ""
+
+#. [value]: id=quick
+#: NX-RPG/rpg_systems/character_development/traits.cfg:68
+msgid "Quick"
+msgstr ""
+
+#. [value]: id=quick
+#: NX-RPG/rpg_systems/character_development/traits.cfg:70
+msgid "+1 movement point"
+msgstr ""
+
+#. [value]: id=intelligent
+#: NX-RPG/rpg_systems/character_development/traits.cfg:84
+msgid "Intelligent"
+msgstr ""
+
+#. [value]: id=intelligent
+#: NX-RPG/rpg_systems/character_development/traits.cfg:86
+msgid "+2 ability points"
+msgstr ""
+
+#. [value]: id=cave_explorer
+#: NX-RPG/rpg_systems/character_development/traits.cfg:93
+msgid "Cave Explorer"
+msgstr ""
+
+#. [value]: id=cave_explorer
+#: NX-RPG/rpg_systems/character_development/traits.cfg:95
+msgid ""
+"Reduce movement cost on hills and caves to 1, 50% defense on said terrains"
+msgstr ""
+
+#. [value]: id=swimmer
+#: NX-RPG/rpg_systems/character_development/traits.cfg:113
+msgid "Swimmer"
+msgstr ""
+
+#. [value]: id=swimmer
+#: NX-RPG/rpg_systems/character_development/traits.cfg:115
+msgid ""
+"Reduce movement cost on shallow and deep water to 1, 50% defense on said "
+"terrains"
+msgstr ""
+
+#. [set_menu_item]: id=nx_help
+#: NX-RPG/rpg_systems/help.cfg:8
+msgid "Help"
+msgstr ""
+
+#: NX-RPG/rpg_systems/herodevel.cfg:14
+msgid "{_CLASS}"
+msgstr ""
+
+#: NX-RPG/rpg_systems/herodevel.cfg:15
+msgid "female^{_CLASS}"
+msgstr ""
+
+#: NX-RPG/rpg_systems/herodevel.cfg:16
+msgid "Player has chosen the class: "
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:81
+msgid ""
+"<span color='#14fa00' weight='bold' size='medium'>The first step of your "
+"character development, select thy Class:</span>\n"
+"<span color='#14c8fa' size='medium'>It will determine what type of weapon "
+"you excel in as well as your special ability:</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:94
+msgid ""
+"<span color='#14c8fa' weight='bold'>WARRIOR</span>\n"
+"<span color='#14c8fa' size='smaller'>Hot-headed and fierce, warriors carry "
+"melee weapons almost exclusively.\n"
+"They prefer to get right in the heart of the battle and fight their enemies\n"
+"at close range. They always look for a chance to hone their skills with "
+"blades.\n"
+"They also will reject a ranged weapon of any kind, save in a dire "
+"situation,\n"
+"though some do carry a net to slow down enemies from afar.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>HVY ARMOR</span> (can distribute 2 additional Armor "
+"Slots)\n"
+"- <span color='#00fa00'>stunning Shield use</span>\n"
+"- <span color='#00fa00'>+1 melee damage</span></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:122
+msgid ""
+"<span color='#14c8fa' weight='bold'>CLERIC</span>\n"
+"<span color='#14c8fa' size='smaller'>Clerics study magical arts just like "
+"mages, but though they do have superb\n"
+"spell-casting skills, they choose to master melee weapons\n"
+"instead of the ranged ones favored my mages. Similarly to warriors,\n"
+"clerics will reject most ranged weapons, though they too might\n"
+"choose to carry a net to slow down enemies from afar.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>MAGIC</span> (generate Mana and use it to cast "
+"Spells)\n"
+"- <span color='#00fa00'>Access to Spellbook</span>\n"
+"- <span color='#00fa00'>+1 melee damage</span></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:154
+msgid ""
+"<span color='#14c8fa' weight='bold'>RANGER</span>\n"
+"<span color='#14c8fa' size='smaller'>Rangers prefer weapons that can be used "
+"from a distance to ones that\n"
+"require close range contact. In spite of this, they will carry a basic\n"
+"melee weapon. Rangers prove very useful in battle, for they are able to\n"
+"strike down enemies before they themselves are within range of their\n"
+"melee weapons.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>HEAVY ARMOR</span> (can distribute 2 additional "
+"Armor Slots)\n"
+"- <span color='#00fa00'>precision</span>\n"
+"- <span color='#00fa00'>+1 ranged damage</span></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:182
+msgid ""
+"<span color='#14c8fa' weight='bold'>MAGE</span>\n"
+"<span color='#14c8fa' size='smaller'>Those who pursue the study of magic "
+"become mages. They can cast spells,\n"
+"which can prove to be of great help in the heat of battle. Because of this,\n"
+"though, they excel at ranged combat, but not in melee, and their ability to\n"
+"improve their melee weapons is severely limited.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>MAGIC</span> (generate Mana and use it to cast "
+"Spells)\n"
+"- <span color='#00fa00'>Access to Spellbook</span>\n"
+"- <span color='#00fa00'>+1 ranged damage</span></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:213
+msgid ""
+"<span color='#14c8fa' weight='bold'>ROGUE</span>\n"
+"<span color='#14c8fa' size='smaller'>Rouges train in using both melee and "
+"ranged weapons. They are most often\n"
+"thieves and bandits, and the ability to use whatever comes to hand as a\n"
+"weapon is essential to their survival. They are far, though, from being\n"
+"perfect in either fighting style, but they can combine their skills with\n"
+"deadly efficiency.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>HVY ARMOR</span> (can distribute 2 additional Armor "
+"Slots)\n"
+"- <span color='#00fa00'>2nd Strike</span>\n"
+"- <span color='#00fa00'>+1 melee/ranged damage</span></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:247
+msgid ""
+"<span color='#14c8fa' weight='bold'>POTION MASTER</span>\n"
+"                    <span color='#14c8fa' size='smaller'>\n"
+"Potion Masters excel at ranged combat. They can mix a wide variety of\n"
+"magic potions from items they find. This skill can make them useful allies,\n"
+"for they can heal, and deadly enemies, for they can too destroy. Their "
+"skills\n"
+"with mixtures have resulted in their hiring for a wide variety of tasks, \n"
+"and as such they have equal knowledge of both melee and ranged weapons.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>POTION MAKING</span> (use items to create potions)\n"
+"- <span color='#00fa00'>potion making item access</span>\n"
+"- <span color='#00fa00'>+1 melee/ranged damage</span></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:275
+msgid ""
+"<span color='#14c8fa' weight='bold'>ELEMENTALIST</span>\n"
+"<span color='#14c8fa' size='smaller'>Elementalists train for years to "
+"master\n"
+"a chosen element. They are not very skilled in melee combat, but their\n"
+"magic and deadly skill at hurling blasts of elements and magic at their \n"
+"enemies make up for that deficiency.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>ELEMENTAL</span> (can interact with special objects "
+"on the map)\n"
+"- <span color='#00fa00'>Special ability based on element</span>\n"
+"- <span color='#00fa00'>+1 ranged damage</span>\n"
+"- <span color='#00fa00'>Spellbook access</span></span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:291
+msgid ""
+"<span color='#14fa00' weight='bold' size='medium'>Select thy Element:</"
+"span>\n"
+"<span color='#14c8fa' size='medium'>You will be able to interact with "
+"certain items related to you chosen element, as well as have access to "
+"certain elemental-related abilities in the shop.</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:374
+msgid ""
+"<span color='#14c8fa' weight='bold'>WEAPONSMITH</span>\n"
+"<span color='#14c8fa' size='smaller'>Weaponsmiths are skilled both in Melee "
+"Combat. They craft weapons of\n"
+"great strength from common materials. Their access to ranged weapons is\n"
+"slight; they prefer to strike out at enemies with deadly weapons soon "
+"before\n"
+"forged.\n"
+"Abilities:\n"
+"- <span color='#00fa00'>WEAPON CRAFTING</span> (can use items from on a map "
+"to craft new weapons)\n"
+"- <span color='#00fa00'>Weaponsmith abilities</span>\n"
+"- <span color='#00fa00'>+1 melee damage</span></span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:403
+msgid ""
+"<span color='#14fa00' weight='bold' size='larger'>...And straight to the</"
+"span>\n"
+"<span color='#14c8fa' weight='bold'>...second step of your character "
+"development, select thy Alignment:</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:476
+msgid ""
+"<span color='#14fa00' weight='bold' size='larger'>Third Step,</span>\n"
+"<span color='#14c8fa' weight='bold'>select thy special Trait:</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:488
+msgid ""
+"<span color='#14c8fa' weight='bold'>STRONG</span>\n"
+"<span color='#14c8fa'>Strong Warriors receive </span><span color='#00fa00'>"
+"+2 melee damage\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:517
+msgid ""
+"<span color='#14c8fa' weight='bold'>DEXTROUS</span>\n"
+"<span color='#14c8fa'>Dextrous Casters receive </span><span color='#00fa00'>"
+"+2 ranged damage\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:546
+msgid ""
+"<span color='#14c8fa' weight='bold'>RESILIENT</span>\n"
+"<span color='#14c8fa'>Resilient Units </span><span "
+"color='#00fa00'>regenerate 8 HP per Turn\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [regenerate]: id=regenerates
+#: NX-RPG/rpg_systems/herodevel.cfg:562
+msgid ""
+"Regenerates: The unit will heal itself 8 HP per turn. If it is poisoned, it "
+"will remove the poison instead of healing."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:580
+msgid ""
+"<span color='#14c8fa' weight='bold'>QUICK</span>\n"
+"<span color='#14c8fa'>Quick Units receive </span><span color='#00fa00'>+1 "
+"movement\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:604
+msgid ""
+"<span color='#14c8fa' weight='bold'>INTELLIGENT</span>\n"
+"<span color='#14c8fa'>Intelligent Units receive </span><span color='#00fa00'>"
+"+2 Ability Points\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:628
+msgid ""
+"<span color='#14c8fa' weight='bold'>CAVE EXPLORER</span>\n"
+"<span color='#14c8fa'>Cave Explorers receive </span><span color='#00fa00'>1 "
+"Cave/Hill Move Cost, 50% Cave/Hill Def\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/herodevel.cfg:687
+msgid ""
+"<span color='#14c8fa' weight='bold'>SWIMMER</span>\n"
+"<span color='#14c8fa'>Swimmers receive </span><span color='#00fa00'>1 "
+"Shallow/Deep Move cost, 40% Shallow/Deep Def\n"
+"Hero gets +10 extra HP</span>"
+msgstr ""
+
+#. [set_menu_item]: id=new_inventory
+#: NX-RPG/rpg_systems/inventory_base.cfg:10
+msgid "Access Inventory"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:7
+msgid ""
+"<span color='#e1e119' weight='bold'>Enhancements</span>\n"
+"<span size='smaller'>Important primary Upgrades</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:24
+msgid "<span color='#e1e119' weight='bold'>Gold: $shopper_gold|</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:29
+#: NX-RPG/rpg_systems/shop/resistance.cfg:45
+#: NX-RPG/rpg_systems/shop/unlock.cfg:29
+msgid "<span color='#e1e119' weight='bold'>Done</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:38
+msgid ""
+"<span color='#e1e119' weight='bold'>300 gold: +4 Melee/Ranged Damage, +1 "
+"Melee/Ranged Strike</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.cbleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:60
+msgid ""
+"<span color='#e1e119' weight='bold'>300 gold: +4 Melee Damage, +1 Melee "
+"Strike</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.cmleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:83
+msgid ""
+"<span color='#e1e119' weight='bold'>300 gold: +4 Ranged Damage, +1 Ranged "
+"Strike</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.crleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:106
+msgid ""
+"<span color='#e1e119' weight='bold'>40 gold: +1 Melee Damage</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.mdleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:128
+msgid ""
+"<span color='#e1e119' weight='bold'>40 gold: +1 Ranged Damage</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.rdleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:150
+msgid ""
+"<span color='#e1e119' weight='bold'>150 gold: +1 Melee Strikes</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.msleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:172
+msgid ""
+"<span color='#e1e119' weight='bold'>150 gold: +1 Ranged Strikes</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.rsleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:194
+msgid ""
+"<span color='#e1e119' weight='bold'>60 gold: +1 Both Damage</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.bdleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:218
+msgid ""
+"<span color='#e1e119' weight='bold'>240 gold: +1 Both Strikes</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.bsleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:242
+msgid ""
+"<span color='#e1e119' weight='bold'>20 gold: +3 Max. HP</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.hpsleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:262
+msgid ""
+"<span color='#e1e119' weight='bold'>95 gold: +15 Max. HP</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.hpbleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/enhancements.cfg:282
+msgid ""
+"<span color='#e1e119' weight='bold'>20 gold: +1 Movement Points</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.mpleft in stock</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/items.cfg:6
+msgid ""
+"<span color='#e1e119' weight='bold'>Item and potions</span>\n"
+"<span size='smaller'>Click here to access</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:31
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $shopper_gold|</span>\n"
+"<span color='#14c8fa' size='smaller'>Cyan Potions in stock: "
+"$green_potion_store_$side_number|\n"
+"-Red Potions in stock: $red_potion_store_$side_number|\n"
+"-Blue Potions in stock: $blue_potion_store_$side_number|</span>\n"
+"<span color='#00ff00'>Maximum number of Potions: $maxpotss_$side_number|</"
+"span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:40
+#: NX-RPG/rpg_systems/shop/spellbook.cfg:27
+#: NX-RPG/rpg_systems/shop/stances.cfg:25
+#: NX-RPG/rpg_systems/shop/terrain.cfg:109
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:28
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:581
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:1124
+#: NX-RPG/rpg_systems/shop/weapons.cfg:236
+#: NX-RPG/rpg_systems/shop/weapons.cfg:310
+msgid "<span color='#14c8fa' weight='bold'>Done</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:49
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Grand Sword of Leadership</"
+"span>\n"
+"<span size='smaller'>+10% damage for self and adjacent allies</span>"
+msgstr ""
+
+#. [leadership]: id=crown
+#: NX-RPG/rpg_systems/shop/items.cfg:75
+msgid ""
+"Sword: increases damage of self, adjacent own, and allied units by 10 "
+"Percent. It is a non-cumulative leadership ability."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:97
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Silver Sword of Leadership</"
+"span>\n"
+"<span size='smaller'>+10% damage for self and adjacent allies</span>"
+msgstr ""
+
+#. [leadership]: id=crown
+#: NX-RPG/rpg_systems/shop/items.cfg:123
+msgid ""
+"Sword: increases damage of self, adjacent own and allied units by 10 "
+"Percent. It is a non-cumulative leadership ability."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:141
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Magestaff</span>\n"
+"<span size='smaller'>+10% maximum Mana</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:166
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Magering</span>\n"
+"<span size='smaller'>+20% Mana recovery rate</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:191
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Cuirass</span>\n"
+"<span size='smaller'>+5% additional resistance for blade, pierce and impact</"
+"span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/items.cfg:232
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Clericstaff</span>\n"
+"<span size='smaller'>+10% additional arcane resistance</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/resistance.cfg:6
+msgid ""
+"<span color='#e1e119' weight='bold'>Armory</span>\n"
+"<span size='smaller'>Buy resistances to reduce damage</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:33
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $shopper_gold|</span>\n"
+"<span color='#00ff00' weight='bold'>Upgrades left: "
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:53
+msgid ""
+"<span color='#e1e119' weight='bold'>30 gold: +5% Blade Resistance</span>\n"
+"                            <span color='#14c8fa' size='smaller'>$shop."
+"rblleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:73
+msgid ""
+"<span color='#e1e119' weight='bold'>30 gold: +5% Pierce Resistance</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.rprleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:93
+msgid ""
+"<span color='#e1e119' weight='bold'>30 gold: +5% Impact Resistance</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.rimleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:113
+msgid ""
+"<span color='#e1e119' weight='bold'>30 gold: +5% Fire Resistance</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.rfrleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:133
+msgid ""
+"<span color='#e1e119' weight='bold'>30 gold: +5% Cold Resistance</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.rclleft in stock</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/resistance.cfg:153
+msgid ""
+"<span color='#e1e119' weight='bold'>30 gold: +5% Arcane Resistance</span>\n"
+"<span color='#14c8fa' size='smaller'>$shop.racleft in stock</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/spellbook.cfg:6
+msgid ""
+"<span color='#e1e119' weight='bold'>The Spellbook</span>\n"
+"<span size='smaller'>Click here to access</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/spellbook.cfg:24
+msgid ""
+"<span color='#e1e119'>Here you can buy different spells that can be used for "
+"various intents around the map. Once bought, they can be accessed from the "
+"right-click menu</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/stances.cfg:6
+msgid ""
+"<span color='#e1e119' weight='bold'>Stances</span>\n"
+"<span size='smaller'>Click here to access</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/stances.cfg:21
+msgid ""
+"Stances provide limited, temporal special abilities and enhancements. After "
+"you buy one you can can activate it from the right-click menu."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/stances.cfg:34
+msgid ""
+"<span color='#e1e119' weight='bold'>80 gold - Run Stance</span>\n"
+"                        <span size='smaller'>+3 temporal movement points</"
+"span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/terrain.cfg:22
+msgid ""
+"<span color='#e1e119' weight='bold'>25 gold: Set {_TEXT} Movement to 1</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/terrain.cfg:60
+msgid ""
+"<span color='#e1e119' weight='bold'>Terrain Training</span>\n"
+"        <span size='smaller'>Improve mobility and basic defense</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/terrain.cfg:98
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $shopper_gold|</span>\n"
+"                    <span color='#00ff00' weight='bold'>Training left: $left|"
+"</span>\n"
+"                    <span size='medium'>\n"
+"                    $shallow_water|\t$swamp_water|\t\t$flat |\t\t$frozen|\n"
+"                    $sand         |\t$forest     |\t\t$hills|\t\t$fungus|\n"
+"                    $mountains    |\t$castle     |\t\t$caves|</span>\n"
+"                    <span color='#14c8fa'>Defense of trained Terrains is set "
+"to 40% if the default is lower.</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/unlock.cfg:6
+msgid ""
+"<span color='#e1e119' weight='bold'>Unlock Shop Options</span>\n"
+"<span size='smaller'>Use Unlock Points to make more purchasing option "
+"available</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/unlock.cfg:22
+msgid ""
+"<span color='#e1e119' weight='bold'>Total Unlock Points: $unlock_points_"
+"$side_number|</span>\n"
+"You get Unlock Points from kills. You can spend it here on packages that "
+"will make more powerful options available in the shop, such an new items, "
+"advanced abilities, and better weapons."
+msgstr ""
+
+#. [label]
+#. [terrain_type]: id=shop
+#: NX-RPG/rpg_systems/shop/utils.cfg:16 NX-RPG/utils/terrain.cfg:74
+msgid "Shop"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:7
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:561
+msgid "<span color='#e1e119' weight='bold'>$select_text_{INDEX}| </span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:18
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $gold| </span>\n"
+"<span color='#00e100' size='smaller'>Note: Specials that can be ADDED can "
+"ONLY be applied\n"
+"as a 2ND Special. ELSE they are treated as NORMAL. Applying\n"
+"a NORMAL Special will DELETE the PREVIOUS. You can add as\n"
+"many ADDABLE Specials as you want to a Weapon.</span>\n"
+"<span color='#14c8fa' size='smaller'>Note: BERSERK and RAGE are ONLY ACTIVE "
+"ON OFFENSE, but can be used in Defense</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:36
+msgid ""
+"<span color='#e1e119' weight='bold'>175: Melee $name_{INDEX}| weapon receive "
+"Charge</span>\n"
+"<span size='smaller'>Charge: This attack deals double damage to the target "
+"on\n"
+"offense, the attacker will also take double damage</span>\n"
+"<span color='#00fa00' size='smaller'><small>can be ADDED to other specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:79
+msgid ""
+"<span color='#e1e119' weight='bold'>210: Melee $name_{INDEX}| weapon receive "
+"Magical</span>\n"
+"<span size='smaller'>Magical: This attack always has a 70% chance to hit</"
+"span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:126
+msgid ""
+"<span color='#e1e119' weight='bold'>250: Melee $name_{INDEX}| weapon receive "
+"Rage</span>\n"
+"<span size='smaller'>Rage: This attack presses the engagement for 3 rounds</"
+"span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [berserk]: id=berserk
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:157
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:211
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:417
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:473
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:530
+msgid "rage"
+msgstr ""
+
+#. [berserk]: id=berserk
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:158
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:212
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:418
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:474
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:531
+msgid ""
+"Rage:\n"
+"When used offensively, this attack presses the engagement until one of the "
+"combatants is slain, or 3 rounds of attacks have occurred."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:180
+msgid ""
+"<span color='#e1e119' weight='bold'>210: Melee $name_{INDEX}| weapon receive "
+"Rage</span>\n"
+"<span size='smaller'>Rage: This attack presses the engagement for 3 rounds</"
+"span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:234
+msgid ""
+"<span color='#e1e119' weight='bold'>275: Melee $name_{INDEX}| weapon receive "
+"Slow</span>\n"
+"<span size='smaller'>Slow: Slow halves the damage caused by attacks and "
+"halves\n"
+"movement</span>\n"
+"<span color='#00fa00' size='smaller'><small>can be ADDED to other specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:281
+msgid ""
+"<span color='#e1e119' weight='bold'>275: Melee $name_{INDEX}| weapon receive "
+"Slow</span>\n"
+"<span size='smaller'>Slow: Slow halves the damage caused by attacks and "
+"halves\n"
+"movement</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:328
+msgid ""
+"<span color='#e1e119' weight='bold'>425: Melee $name_{INDEX}| weapon receive "
+"Berserk</span>\n"
+"<span size='smaller'>Berserk: This attack presses the engagement for 30 "
+"rounds\n"
+"Berserk is active on offense</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [berserk]: id=berserkss
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:359
+msgid "berserk"
+msgstr ""
+
+#. [berserk]: id=berserkss
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:360
+msgid ""
+"Berserk:\n"
+"Whether used offensively or defensively, this attack presses the engagement "
+"until one of the combatants is slain, or 30 rounds of attacks have occurred."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:382
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:440
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:496
+msgid ""
+"<span color='#e1e119' weight='bold'>525: Melee $name_{INDEX}| weapon receive "
+"Raged Slow</span>\n"
+"<span size='smaller'>Raged Slow: halves the damage caused by attacks and\n"
+"halves movement while pressing the engagement\n"
+"for 3 rounds</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:573
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $gold| </span>\n"
+"<span color='#00e100' size='smaller'>Note: Specials that can be ADDED can "
+"ONLY be applied\n"
+"as a 2ND Special. ELSE they are treated as NORMAL. Applying\n"
+"a NORMAL Special will DELETE the PREVIOUS. You can add as\n"
+"many ADDABLE Specials as you want to a Weapon.</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:588
+msgid ""
+"<span color='#e1e119' weight='bold'>100: Ranged $name_{INDEX}| weapon "
+"receive Blessing</span>\n"
+"                    <span size='smaller'>Blessing: Blessed weapons do 10% "
+"more damage in battle on offense</span>\n"
+"                    <span color='#00fa00' size='smaller'><small>can be ADDED "
+"to other specials</small></span>"
+msgstr ""
+
+#. [damage]: id=blessing
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:618
+msgid "blessed"
+msgstr ""
+
+#. [damage]: id=blessing
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:619
+msgid ""
+"Blessed:\n"
+"When used offensively, blessed weapons do 10% more damage than usual. This "
+"weapon special isn't activated on defense."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:642
+msgid ""
+"<span color='#e1e119' weight='bold'>150: Ranged $name_{INDEX}| weapon "
+"receive Marksman</span>\n"
+"<span size='smaller'>Marksman: This attack has at least a 60% chance to hit "
+"on offense</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:689
+msgid ""
+"<span color='#e1e119' weight='bold'>125: Ranged $name_{INDEX}| weapon "
+"receive Precision</span>\n"
+"<span size='smaller'>Precision: This attack always has a 80% chance to hit "
+"when used offensively</span>\n"
+"<span color='#00fa00' size='smaller'><small>can be ADDED to other specials</"
+"small></span>"
+msgstr ""
+
+#. [chance_to_hit]: id=precisionss
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:720
+msgid "precision"
+msgstr ""
+
+#. [chance_to_hit]: id=precisionss
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:721
+msgid ""
+"Precision:\n"
+"This attack always has a 80% chance to hit regardless of the defensive "
+"ability of the unit being attacked."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:744
+msgid ""
+"<span color='#e1e119' weight='bold'>210: Ranged $name_{INDEX}| weapon "
+"receive Magical</span>\n"
+"<span size='smaller'>Magical: This attack always has a 70% chance to hit</"
+"span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:790
+msgid ""
+"<span color='#e1e119' weight='bold'>300: Ranged $name_{INDEX}| weapon "
+"receive Slow</span>\n"
+"<span size='smaller'>Slow: Slow halves the damage caused by attacks and "
+"halves\n"
+"movement</span>\n"
+"<span color='#00fa00' size='smaller'><small>can be ADDED to other specials</"
+"small></span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:837
+msgid ""
+"<span color='#e1e119' weight='bold'>300: Ranged $name_{INDEX}| weapon "
+"receive Focus</span>\n"
+"<span size='smaller'>Focus: Offensively, this attack always has a 70% chance "
+"to hit\n"
+"both the attacker and the defender do 50% more damage</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [damage]: id=focus
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:868
+msgid "focus"
+msgstr ""
+
+#. [damage]: id=focus
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:869
+msgid ""
+"Focus:\n"
+"When used offensively, this attack always has a 70% chance to hit and causes "
+"both the attacker and the defender to do 50% more damage than usual. This "
+"weapon special isn't activated on defense."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:898
+msgid ""
+"<span color='#e1e119' weight='bold'>425: Ranged $name_{INDEX}| weapon "
+"receive Precision Focus</span>\n"
+"<span size='smaller'>Precision Focus: On Offense, this attack has a 80% "
+"chance\n"
+"to hit, the attacker and the defender do 50% more damage</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [damage]: id=Precision Focus
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:930
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:992
+msgid "Precision Focus"
+msgstr ""
+
+#. [damage]: id=Precision Focus
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:931
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:993
+msgid ""
+"Precision Focus:\n"
+"When used offensively, this attack always has a 80% chance to hit and causes "
+"both the attacker and the defender to do 50% more damage than usual. This "
+"weapon special isn't activated on defense."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:960
+msgid ""
+"<span color='#e1e119' weight='bold'>400: Ranged $name_{INDEX}| weapon "
+"receive Precision Focus</span>\n"
+"<span size='smaller'>Precision Focus: On Offense, this attack has a 80% "
+"chance\n"
+"to hit, the attacker and the defender do 50% more damage</span>\n"
+"<span color='#14c8fa' size='smaller'><small>will overwrite current Specials</"
+"small></span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:1028
+msgid ""
+"<span color='#e1e119' weight='bold'>Weaponsmith</span>\n"
+"<span size='smaller'>Upgrade weapons with powerful specials</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:1077
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $gold| </span>\n"
+"<span color='#ffffff' size='smaller'>Here you can add/exchange specials for "
+"any\n"
+"weapon you have, but every weapon can only hold only ONE\n"
+"special at a time. An exception are ADDABLE specials, which can be APPLIED.\n"
+"You CAN'T apply a non-addable special to a weapon without losing the current "
+"one, \n"
+"even if the current special is addable. So be CAREFUL.</span>\n"
+"<span color='#14c8fa'>Select the weapon to which you want to add/exchange a "
+"special:</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:1087
+msgid "<span color='#14c8fa' weight='bold'>Melee (Done)</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapon_specials.cfg:1104
+msgid "<span color='#14c8fa' weight='bold'>Ranged (Done)</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/weapons.cfg:7
+msgid "<span color='#e1e119' weight='bold'>Leave: $select_text_{INDEX}|</span>"
+msgstr ""
+
+#. [option]
+#: NX-RPG/rpg_systems/shop/weapons.cfg:41
+msgid ""
+"<span color='#e1e119' weight='bold'>Weapons</span>\n"
+"    <span size='smaller'>Purchase extra weapons for your unit, or sell "
+"existing one (can be done at max level only)</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapons.cfg:227
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $shopper_gold</span>\n"
+"<span color='#00ff00'>You can have a maximum of 7 Weapons.\n"
+"You can sell Weapons at your maximum Level for 30 Gold each.</span>\n"
+"$weapon_sell|"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapons.cfg:245
+msgid "<span color='#e1e119' weight='bold'>Sell Weapons</span>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop/weapons.cfg:303
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $shopper_gold</span>\n"
+"You can sell weapons for 30 gold each, but be careful; this action cannot be "
+"reversed."
+msgstr ""
+
+#. [then]
+#: NX-RPG/rpg_systems/shop_base.cfg:24
+msgid "With that much gold, shopping might take a while..."
+msgstr ""
+
+#. [set_menu_item]: id=NXShop
+#: NX-RPG/rpg_systems/shop_base.cfg:46
+msgid "Enter Shop"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/rpg_systems/shop_base.cfg:77
+msgid ""
+"<span color='#e1e119' weight='bold'>Gold: $shopper_gold| </span>\n"
+"<span color='#cf0080'>Mana Experience: $$unit.id|.magic.xp</span>\n"
+"<span color='#ff0080'>Current Mana   : $$unit.id|.magic.current_mana</span>\n"
+"<span color='#c00080'>Maximum Mana   : $$unit.id|.magic.max_mana</span>\n"
+"<span color='#800080'>Mana per round : $$unit.id|.magic.rate</span>"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop_base.cfg:86
+msgid ""
+"<span color='#e1e119' weight='bold'>Done</span>\n"
+"<span size='smaller'>Exit shop and continue playing</span>"
+msgstr ""
+
+#. [regenerate]: id=regenerates+x
+#: NX-RPG/rpg_systems/shop_base.cfg:124
+msgid "regen $hpsst20|"
+msgstr ""
+
+#. [regenerate]: id=regenerates+x
+#: NX-RPG/rpg_systems/shop_base.cfg:125
+msgid ""
+"Regenerates $hpsst20|:\n"
+"This unit will heal itself 20% of its maximum health up to a total maximum "
+"of 250HP per Round. If poisoned, it will be cured instead of being healed. "
+"The value of this ability gets updated each time you shop."
+msgstr ""
+
+#. [heals]: id=healing+x
+#: NX-RPG/rpg_systems/shop_base.cfg:162
+msgid "heal$hpsst20|"
+msgstr ""
+
+#. [heals]: id=healing+x
+#: NX-RPG/rpg_systems/shop_base.cfg:163
+msgid ""
+"Heals$hpsst20|:\n"
+"Allows the unit to heal adjacent friendly units at the beginning of each "
+"turn.\n"
+"\n"
+"A unit cared for by this healer may heal 20% of the healer's maximum health "
+"up to a total maximum of 250HP per Round, or stop poison from taking effect "
+"for that turn. The Value of this ability gets updated each time you Shop."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: NX-RPG/rpg_systems/shop_base.cfg:192
+msgid ""
+"<span color='#e1e119' weight='bold'>20 gold: Cure unit and restore HP</span>"
+msgstr ""
+
+#. [race]: id=northguard
+#: NX-RPG/units/humans.cfg:5 NX-RPG/units/humans.cfg:7
+msgid "race^Northguard"
+msgstr ""
+
+#. [race]: id=northguard
+#: NX-RPG/units/humans.cfg:6
+msgid "race+female^Northguard"
+msgstr ""
+
+#. [race]: id=northguard
+#. [unit_type]: id=Northguard Deathblade, race=northguard
+#. [unit_type]: id=Northguard Fighter, race=northguard
+#. [unit_type]: id=Northguard Warrior, race=northguard
+#: NX-RPG/units/humans.cfg:8 NX-RPG/units/humans/Northguard_Deathblade.cfg:18
+#: NX-RPG/units/humans/Northguard_Fighter.cfg:18
+#: NX-RPG/units/humans/Northguard_Warrior.cfg:18
+msgid "TODO"
+msgstr ""
+
+#. [unit_type]: id=Northguard Deathblade, race=northguard
+#: NX-RPG/units/humans/Northguard_Deathblade.cfg:5
+msgid "Deathblade"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Deathblade.cfg:23
+msgid "weapon^deathblade"
+msgstr ""
+
+#. [unit_type]: id=Northguard Fighter, race=northguard
+#: NX-RPG/units/humans/Northguard_Fighter.cfg:5
+msgid "Fighter"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Fighter.cfg:23
+msgid "weapon^sword"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Warrior.cfg:23
+msgid "weapon^twin_swords"
+msgstr ""
+
+#. [unit_type]: id=Villager, race=human
+#: NX-RPG/units/humans/Villager.cfg:5
+msgid "Villager"
+msgstr ""
+
+#. [unit_type]: id=Villager, race=human
+#: NX-RPG/units/humans/Villager.cfg:19
+msgid "FIXME"
+msgstr ""
+
+#. [attack]: type=impact
+#: NX-RPG/units/humans/Villager.cfg:28
+msgid "fist"
+msgstr ""
+
+#. [unit_type]: id=Gate, race=mechanical
+#: NX-RPG/units/mechanical/Gate.cfg:5
+msgid "Gate"
+msgstr ""
+
+#. [unit_type]: id=Gate, race=mechanical
+#: NX-RPG/units/mechanical/Gate.cfg:19
+msgid ""
+"The gate will open only to those who are allied with its owners, unless "
+"struck down by their enemies first."
+msgstr ""
+
+#. [unit_type]: id=Leech, race=monster
+#: NX-RPG/units/monsters/Leech.cfg:5
+msgid "Leech"
+msgstr ""
+
+#. [unit_type]: id=Leech, race=monster
+#: NX-RPG/units/monsters/Leech.cfg:45
+msgid ""
+"Leeches are universally known for their common diet: the warm blood of "
+"various bigger creatures. However, this is exactly why they are often used "
+"for medicinal purposes.\n"
+"\n"
+"Although not directly related, the same name is applied to groups of strange "
+"worms attached to the ground, found in subterrainian caverns. They cannot "
+"move around in search of prey, but they are dangerous none the less. If an "
+"unwary victim gets close enough, the creatures will trap them with their "
+"deadly tentacles and swallow their blood, which increases their strength and "
+"heals their wounds.\n"
+"\n"
+"It is fortunate that they have not developed legs; otherwise, they would be "
+"an almost unstoppable menace to explorers and dwellers of the caves they\n"
+"inhabit."
+msgstr ""
+
+#. [attack]: type=pierce
+#: NX-RPG/units/monsters/Leech.cfg:59
+msgid "drainer"
+msgstr ""
+
+#. [unit_type]: id=Death Baron, race=undead
+#: NX-RPG/units/undead/Skele_Death_Baron.cfg:5
+msgid "Death Baron"
+msgstr ""
+
+#. [unit_type]: id=Death Baron, race=undead
+#: NX-RPG/units/undead/Skele_Death_Baron.cfg:39
+msgid ""
+"Sometimes the mightiest warriors and generals, cursed with hate and angst, "
+"come back to this world as Death Knights. Death Barons serve them whilst "
+"accruing enough unholy power to advance to the level of their masters. In "
+"the process, they pick up a good deal of the Knight’s skills, including the "
+"ability to easily and effectively command underlings."
+msgstr ""
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: NX-RPG/units/undead/Skeleton_Knight.cfg:5
+msgid "Bone Knight"
+msgstr ""
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: NX-RPG/units/undead/Skeleton_Knight.cfg:26
+msgid ""
+"The horsemen with the most experienced rose quickly through the ranks, only "
+"to find death that much closer. They gained significant knowledge in "
+"weaponry and tactics, even being able to carry a crossbow in addition to "
+"their axes. These riders now wander the world, doing the bidding of their "
+"dark masters that summoned this to fight once again. Their strength remains "
+"great, and, in death as in life, novice units should not attempt to do "
+"battle with one alone."
+msgstr ""
+
+#. [attack]: type=impact
+#: NX-RPG/units/undead/Skeleton_Knight.cfg:45
+msgid "trample"
+msgstr ""
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: NX-RPG/units/undead/Skeleton_Rider.cfg:5
+msgid "Skeleton Rider"
+msgstr ""
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: NX-RPG/units/undead/Skeleton_Rider.cfg:26
+msgid ""
+"These mounted skeletons were once great warriors thundering across the "
+"plains. In life, they had not yet acquired the skill and strength of the "
+"more experienced of their ranks, but they were equal in terms of speed; they "
+"could dash into battle as fast as those more experienced. This is still "
+"apparent even now, trapped in unlife as they are to spread fear and "
+"destruction. Novice fighters should have no problem fighting these, but need "
+"remember the speed of the skeletal mounts."
+msgstr ""
+
+#. [editor_group]: id=NX-RPG-terrain
+#: NX-RPG/utils/terrain.cfg:5
+msgid "NX-RPG (custom terrains)"
+msgstr ""
+
+#. [terrain_type]: id=gate_se
+#: NX-RPG/utils/terrain.cfg:12
+msgid "Gate (se)"
+msgstr ""
+
+#. [terrain_type]: id=gate_sw
+#: NX-RPG/utils/terrain.cfg:22
+msgid "Gate (sw)"
+msgstr ""
+
+#. [terrain_type]: id=abyss-volcanic
+#: NX-RPG/utils/terrain.cfg:32
+msgid "Volcanic Abyss"
+msgstr ""
+
+#. [terrain_type]: id=overlay-campfire
+#: NX-RPG/utils/terrain.cfg:42
+msgid "Campfire"
+msgstr ""
+
+#. [terrain_type]: id=brazier_lit
+#: NX-RPG/utils/terrain.cfg:53
+msgid "Lit Brazier"
+msgstr ""
+
+#. [terrain_type]: id=brazier
+#: NX-RPG/utils/terrain.cfg:64
+msgid "Brazier"
+msgstr ""
+
+#. [terrain_type]: id=dark-castle
+#: NX-RPG/utils/terrain.cfg:84
+msgid "Dark Castle"
+msgstr ""
+
+#. [terrain_type]: id=dark-keep
+#: NX-RPG/utils/terrain.cfg:97
+msgid "Dark Keep"
+msgstr ""
+
+#. [terrain_type]: id=floor_glowing
+#: NX-RPG/utils/terrain.cfg:110
+msgid "Glowing Flagstones"
+msgstr ""
+
+#. [terrain_type]: id=floor_tiled_dark
+#: NX-RPG/utils/terrain.cfg:120
+msgid "Dark Tiled Floor"
+msgstr ""
