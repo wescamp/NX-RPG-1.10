@@ -1,0 +1,81 @@
+NX-RPG/Revenge from the Shadows: Changelog
+
+Version 0.2.8a
+--------------
+* Music
+  * Changed the name of the music pack addon to 'NX-Music' for consistency
+
+Version 0.2.8
+-----------------
+* Scenarios
+  * P1S1 - Awakening:
+    * Some misc fixes and balancing
+    * Updated map
+    * Better dialog
+  * P1S2 - Unknown Land
+    * New scenario
+
+* General Code
+  * General macro updates
+  * Added a maintainer mode
+  * Made wmllint run (almost) clean on the add-on
+  * Added a mainline-strings.cfg file
+  * Made {RECALL_(CHARACTER)} macros actually work.
+  * RPG systems
+    * Improved item pickup code
+    * Improved character development code to go alone with the new dialog
+    * Made {SHOP_LABELS} work
+    * Added base for quests
+
+* Lua
+  * Worked some bugs out of the [check_for_character] function
+  * New WML tags: [check_inventory], [add_status_icon]
+  * GUI
+    * Updated inventory dialog
+    * Added new character development dialog (still locked)
+    * Added new nx help dialog (still needs help topics)
+
+* Sound Effects
+  * Added gate hit and die/fall sounds
+
+* Music
+  * Moved the music to a separate addon, NX_Music, for faster upload and download times.
+    The addon is an optional dependency. This makes it easier for people with slower
+    internet speeds to download this campaign. All changelog entries related to music
+    henceforth relate to said NX_Music addon.
+  * Added new tracks:
+    * Snowfall (from AtS)
+    * The High King's March (from AtS)
+    * Zhaytee Tragedy (from TEG)
+    * Land of Adventure (from ABI)
+
+* Graphics
+  * Fixed ugly border around impassible mountains when rain is in use
+  * Updated the custom TOD images for the rainy schedule
+  * Made rainy schedule use a slightly darker lighting than the normal schedule
+  * Removed/relocated lots of images
+  * Added light rain variant images and code, and raindrop images (no code yet)
+  * Various updated images for the shop, etc. Also removed unnecessary ones.
+  * Terrain
+    * Allowed overlays on Dark Castles and Keeps
+    * Made Dark Castles transition nicely with other terrains
+    * Fixed bug where Volcanic Abyss terrain didn't display correctly
+  * Units
+    * Added unit image for Gates. This fixes an "Image not found" error that appeared 
+      when the were selected.
+    * New or updated unit graphics: Leech, Skeleton Rider, Bone Knight, and Death Baron,
+      Northguard Fighter, Northguard Warrior, Northguard Deathblade, Northguard Archer,
+      Northguard Silverbow
+
+* Units
+  * Made Rhyan a trapper
+  * New units: Leech, Skeleton Rider, Bone Knight, and Death Baron, (from IftU) 
+    Northguard Fighter, Northguard Warrior, Northguard Deathblade (custom)
+
+Version 0.2.5
+-------------
+* Too much to record - total revamp of everything
+
+Version 0.0.5-0.1.9
+-------------------
+* Too much to record - initial work on NX/RftS
