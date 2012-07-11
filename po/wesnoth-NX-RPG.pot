@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-06-30 09:29-0400\n"
+"POT-Creation-Date: 2012-07-11 15:30-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,13 +33,18 @@ msgid "Campaign Maintenance"
 msgstr ""
 
 #. [about]
-#: ./NX-RPG/about.cfg:34
+#: ./NX-RPG/about.cfg:38
 msgid "Coding Assistants "
 msgstr ""
 
 #. [about]
-#: ./NX-RPG/about.cfg:78
-msgid "Art Assistants"
+#: ./NX-RPG/about.cfg:82
+msgid "Graphics"
+msgstr ""
+
+#. [about]
+#: ./NX-RPG/about.cfg:96
+msgid "Music"
 msgstr ""
 
 #. [campaign]: id=Revenge_from_the_Shadows_1
@@ -109,799 +114,794 @@ msgid "To be continued..."
 msgstr ""
 
 #. [scenario]: id=01_Awakening
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:14
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:9
 msgid "Awakening"
 msgstr ""
 
 #. [side]
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:35 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:35 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:23
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:30 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:32 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:20
 msgid "team_name^Rhyan"
 msgstr ""
 
 #. [side]
 #. [side]: type=Deathblade, id=Revekel
 #. [side]: type=Saurian Flanker, id=Yerar
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:54 ./NX-RPG/episode1/scenarios/01_Awakening.cfg:98 ./NX-RPG/episode1/scenarios/01_Awakening.cfg:133
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:45 ./NX-RPG/episode1/scenarios/01_Awakening.cfg:76 ./NX-RPG/episode1/scenarios/01_Awakening.cfg:113
 msgid "team_name^Guards"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:253
-msgid "Where...where am I? What happened?"
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:221
+msgid "Where...where am I? What happened? <i>Who</i> am I...?"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:258
-msgid "I sense...something...evil. There is a strange...atmosphere about this place, familiar, but I cannot definitely place it. I should get out of here and try to find the others."
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:226
+msgid "I ... can't remember... I...I need to get out of here ... and where are the others? Yes...there <i>were</i> others ... but I don't remember anything else..."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:263
-msgid "Now...that gate doesn't look too sturdy. It should come down without much-"
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:231
+msgid "That gate doesn't look too sturdy. It should come down without much-"
 msgstr ""
 
 #. [unit]: id=Galthur, type=Dwarvish Fighter, role=dying_prisoner
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:268
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:236
 msgid "Galthur"
 msgstr ""
 
-#. [message]: speaker=Galthur
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:280
+#. [message]: speaker=narrator
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:248
+msgid "A weak voice"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:249
 msgid "Who...are you?"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:285
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:254
 msgid "Huh?"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:317
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:286
 msgid "Who are <i>you</i>?"
 msgstr ""
 
 #. [message]: speaker=Galthur
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:322
-msgid "I don't really know; it was such a time ago I was brought here...even how long I've been here eludes me. I don't even know if my friends that were brought too are still alive."
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:291
+msgid "I don't really know...my name is Galthur, if that means anything... It was such a time ago I was brought here...how long I've been here eludes me. I don't even know if my friends that were brought too are still alive. All I've done is rot in this cell."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:327
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:296
 msgid "So it is the same with mine."
 msgstr ""
 
 #. [message]: speaker=Galthur
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:332
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:301
 msgid "<i>(sigh)</i> No matter...if they are alive in this place they will suffer. Better to be dead. But you...you must escape... You must...He must be stopped. All of this must be stopped. You have a chance to go. Please take it."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:336
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:305
 msgid "Who is 'He'? And why did you never attempt an escape yourself?"
 msgstr ""
 
 #. [message]: speaker=Galthur
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:341
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:310
 msgid "I heard the guards talking of a 'Master', but I don't know anything more. I feel a dark presence, though. It seems akin to the evil I felt when that...evil...controlled the Camran Fortress. Do you not feel it? And as for escape, I was never strong enough to try; I wasn't as healthy as you are now, even when I was first thrown into this vile pit."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:346
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:315
 msgid "I feel...something, though like to you it remains familiar, yet at the same time, unfamiliar. But...it's evil, definitely evil...and...hungry..."
 msgstr ""
 
 #. [message]: speaker=Galthur
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:351
-msgid "Please... You must get out. Here; take this. It's all I can do. It should help if there are any undead guarding this place."
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:320
+msgid "Please... You must get out. Here; take this. It's all I can do. I've kept it all these years, hidden. It's useless to me, but it should help you if there are any undead guarding this place."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:356
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:325
 msgid "But-"
 msgstr ""
 
 #. [message]: speaker=Galthur
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:361
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:330
 msgid "I am not long alive anyway... With any luck I will have a second life as an undead warrior. If I do, and you come across me, then you can give me a more fitting rest. Until then...now please...go."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:373
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:342
 msgid "Rhyan stood staring down at the body of the dead dwarf for a long time, then bent and took the potion he had offered."
 msgstr ""
 
 #. [object]: id=Galthur_potion
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:384
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:353
 msgid "Holy Water"
 msgstr ""
 
 #. [object]: id=Galthur_potion
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:386
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:355
 msgid "This water will give all weapons <i>arcane</i> damage until the end of the current scenario."
 msgstr ""
 
 #. [unit]: type=Red Mage, id=Lemmory, role=shopkeeper
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:413
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:382
 msgid "Lemmory"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:422
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:391
 msgid "What the-"
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:427
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:396
 msgid "Ugh...where am I... That didn't work too well..."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:432
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:401
 msgid "Uh?"
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:437
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:406
 msgid "Oh! Who are you? I'm sorry...that teleport spell didn't work well... I guess it sill possesses some problems."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:442
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:411
 msgid "Oh..."
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:447
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:416
 msgid "I was working in my shop, you see, and I came across a new spell in one of my books...and I'm afraid I foolishly tried it out. Obviously it has gone horribly wrong."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:452
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:421
 msgid "Oh. Well, I too know not where I am, so that makes two of us in that regard. All I know is someone brought me here and..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:457
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:426
 msgid "For a few minutes, Rhyan told the new arrival of all that had transpired."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:463
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:432
 msgid "...so I was about to escape and search for my companions, when you appeared out of thin air."
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:468
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:437
 msgid "Humm...I think I can help you. I know these kinds of enemies; they are almost always always quite difficult to defeat. You'll need help... If only...that's it! I will scatter several locations as you travel, that, when entered, will allow you access to my wares. They'll look like an old, ruined tent, so they won't attract too much attention. Just leave some gold, it'll find it's way to me. Would that help?"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:473
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:442
 msgid "Greatly!"
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:478
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:447
 msgid "Good. Unfortunately, I am quite low on supplies at the moment; I'll try to re-stock as soon as possible, so you'll have more options to choose from. And now..."
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:504
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:473
 msgid "There."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:509
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:478
 msgid "Thank you; this should help a great deal."
 msgstr ""
 
 #. [message]: speaker=Lemmory
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:514
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:483
 msgid "Good. Now I must go before my remaining wares get stolen. Good luck to you."
 msgstr ""
 
 #. [event]: (id=Rhyan) (29,29,35,33) (28,29,32,33) nw}, (id=Galthur) facing se}, (id=Rhyan) (33,28) (31,28)}, (id=Rhyan) (28) (26) ne}, (id=Lemmory) (30) (25) sw}
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:528
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:497
 msgid "Explore and find your companions"
 msgstr ""
 
 #. [event]
 #. [event]: (id=Rhyan) (29,29,35,33) (28,29,32,33) nw}, (id=Galthur) facing se}, (id=Rhyan) (33,28) (31,28)}, (id=Rhyan) (28) (26) ne}, (id=Lemmory) (30) (25) sw}
-#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#. [event]: (side,id=2,Yerar) (18,15) (16,18) se}, (side,id=2,Yerar) (18,18) (16,15) sw}
 #. [event]: id=messenger (53) (35)}
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:530 ./NX-RPG/episode1/scenarios/01_Awakening.cfg:884 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:326 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:712 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:108
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:499 ./NX-RPG/episode1/scenarios/01_Awakening.cfg:848 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:322 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:708 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:104
 msgid "Death of Rhyan"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:556
-msgid "More gates…and passages. Surely one of them must be the way out of this pit. Still, first I must look for my friends. Hopefully that are well…and alive. Plus, those gates look…stronger than these were. Probably'll need a key to get through them. If it is the way out, guess we'll be looking for that as well. Typical. Strange these seem so easy to break down, though…"
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:527
+msgid "Huh! They weren't locked. Either someone was negligent or someone wants me to get out... Still, doesn't really help, there's just more dark and gloomy passages... <i>One</i> of them must be the way out, but which... And I still need to find my companions. Hopefully they are well and alive."
 msgstr ""
 
-#. [pick_up_item]: id=scen1_key
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:572
-msgid "Key"
+#. [pick_up_item]: id=scen1_lockpick
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:543
+msgid "Lockpick"
 msgstr ""
 
-#. [pick_up_item]: id=scen1_key
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:574
-msgid "An old, but well taken care of, key. It appears to be down here for safekeeping and can be used to open certain locked gates."
+#. [pick_up_item]: id=scen1_lockpick
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:545
+msgid "An old metal lock pick. Someone must have dropped it down here."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:589
-msgid "I've found it! The key is ours!"
-msgstr ""
-
-#. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:594
-msgid "Good! Now we can escape this cesspool."
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:560
+msgid "Interesting...a lockpick. This should be useful."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:599
-msgid "Excellent! Bring it here; I want to get out as fast as possible."
-msgstr ""
-
-#. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:671
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:634
 msgid "Finally! I'm out!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:678
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:641
 msgid "Hullo, who's this?"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:682
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:645
 msgid "Same to you, dwarf. Shut up."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:686
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:649
 msgid "<i>(chuckles)</i>"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:695
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:658
 msgid "Norethial! You're ok! But where are the others?"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:699
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:662
 msgid "I don't know... "
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:703
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:666
 msgid "I hope they too are unhurt..."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:744
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:707
 msgid "And you are?"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:748
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:711
 msgid "I could ask you the same."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:752
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:715
 msgid "<i>(scoff)</i> Yeah well, I'll go with you, and we can settle this later, eh?"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:796
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:760
 msgid "This blasted gate is open! Let's get out of he-"
 msgstr ""
 
 #. [message]: speaker=Yerar
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:808
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:772
 msgid "Ssssss...hehe.... Where do you think you're going?"
 msgstr ""
 
-#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:822
+#. [event]: (side,id=2,Yerar) (18,15) (16,18) se}, (side,id=2,Yerar) (18,18) (16,15) sw}
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:786
 msgid "Bor"
 msgstr ""
 
 #. [message]: speaker=Bor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:826
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:790
 msgid "Hehehe boss ah' we gonna bash 'dem into 'de floor?"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:831
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:795
 msgid "Who are you and what do you want with us!"
 msgstr ""
 
 #. [message]: speaker=Yerar
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:836
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:800
 msgid "Who I am and what he wants with you are none of your business. But I think it's enough to say you have something he wants. Though could you maybe ask something a bit more original? <i>Everyone</i> asks that. It's getting boring."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:841
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:805
 msgid "And just who might 'he' be?"
 msgstr ""
 
 #. [message]: speaker=Yerar
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:846
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:810
 msgid "<i>(smiling evilly)</i> You'll find out soon enough. Now why don't you just turn around and go back into those cells before we are forced to hurt you?"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:851
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:815
 msgid "<i>NEVER!!!</i>"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:856
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:820
 msgid "You'll have to make us. We have no intention of going anywhere."
 msgstr ""
 
 #. [message]: speaker=Yerar
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:861
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:825
 msgid "You have chosen unwisely; you cannot win. But...your fate is your own choosing...on your heads...be it."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:866
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:830
 msgid "Are you really as formidable as you claim, or are you just all hot air from a dwarfish furnace? Because I have seen some of those get pretty hot; looks like you've spent some time around them...hehehe."
 msgstr ""
 
 #. [message]
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:871
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:835
 msgid "Enough of this! Bor, smash them and return them to the cells! But don't kill them. Yet."
 msgstr ""
 
 #. [message]: speaker=Bor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:876
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:840
 msgid "Hehehe...this is gonna be fun!"
 msgstr ""
 
-#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:882
+#. [event]: (side,id=2,Yerar) (18,15) (16,18) se}, (side,id=2,Yerar) (18,18) (16,15) sw}
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:846
 msgid "Defeat all guard leaders"
 msgstr ""
 
 #. [event]
-#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#. [event]: (side,id=2,Yerar) (18,15) (16,18) se}, (side,id=2,Yerar) (18,18) (16,15) sw}
 #. [event]: id=messenger (53) (35)}
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:885 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:327 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:713 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:109
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:849 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:323 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:709 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:105
 msgid "Death of Norethial"
 msgstr ""
 
 #. [event]
-#. [event]: (side,id=2,Yerar) (20,18,18,15) (14,15,16,18) se}, (side,id=2,Yerar) (18,19,21,21) (16,17,16,15) sw}
+#. [event]: (side,id=2,Yerar) (18,15) (16,18) se}, (side,id=2,Yerar) (18,18) (16,15) sw}
 #. [event]: id=messenger (53) (35)}
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:886 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:328 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:714 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:110
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:850 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:324 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:710 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:106
 msgid "Death of Galamor"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:911
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:875
 msgid "Oh great...giants rats. Just what we need on top of all the rest...hopefully they don't-"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:916
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:880
 msgid "<i>(hisss)</i>"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:921
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:885
 msgid "...bite..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:935
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:899
 msgid "<i>(HIISSSSSSSSSS)</i> The Master will have His revenge, no matter what the cost!"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:940
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:904
 msgid "You're not going anywhere until you tell us what you've done with the rest."
 msgstr ""
 
 #. [message]: speaker=Yerar
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:945
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:909
 msgid "Oh, they're not here. HAHAHAHAHA!"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:950
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:914
 msgid "Then where are they!"
 msgstr ""
 
 #. [message]: speaker=Yerear
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:955
-msgid "You'll find out. HAHAha…ha…heh…uh…ugh…"
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:919
+msgid "You'll find out. HAHAha...ha...heh...uh...ugh..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:969
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:933
 msgid "What's the point? I am already dead. I cannot die again, but unfortunately for you, <i>you</i> can"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:983
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:947
 msgid "I fall, but death will always follow you; you will never escape its cold grasp!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:995
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:959
 msgid "Somehow I think already being dead doesn't really help."
 msgstr ""
 
 #. [check_for_character]: id=Norethial, type=Elvish Sorceress, role=hero
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1006 ./NX-RPG/macros/character_defines.cfg:34
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:970 ./NX-RPG/macros/character_defines.cfg:34
 msgid "Norethial"
 msgstr ""
 
 #. [check_for_character]: id=Galamor, type=Dwarvish Scout, role=hero
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1017 ./NX-RPG/macros/character_defines.cfg:52
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:981 ./NX-RPG/macros/character_defines.cfg:52
 msgid "Galamor"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1026
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:990
 msgid "They have been defeated...but the answers we seek still elude us. Who is this 'he' they speak of? No matter, though, let us just leave this place; it's too disturbing."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1031
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:995
 msgid "Whoever did this will pay!!!"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1036
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1000
 msgid "Calm down, Galamor, please. Anger will get us nowhere. I too am angry at this person, whoever he is, but I'm not raging."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1041
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1005
 msgid "Shut up, human. Let's just go; I want to find my friends. Galthur is already dead, from what I gather."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1046
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1010
 msgid "Sorry Rhyan, I had to tell him. You told me; it was only fair."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1051
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1015
 msgid "<i>(shrug)</i> And <i>you</i> shut up dwarf."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1056
+#: ./NX-RPG/episode1/scenarios/01_Awakening.cfg:1020
 msgid "<i>(giggle)</i> Let's go, in any case. Seems the rest aren't here, anyway..."
 msgstr ""
 
 #. [scenario]: id=02_Unknown_Land
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:8
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:5
 msgid "Unknown Land"
 msgstr ""
 
 #. [side]: type=Dark Adept, id=Ladmur
 #. [side]: type=Fugitive, id=Relmor
 #. [side]: type=Orcish Slurbow, id=Gerok
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:60 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:83 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:105
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:57 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:80 ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:102
 msgid "team_name^Encamped Enemies"
 msgstr ""
 
 #. [side]: type=Dark Adept, id=Ladmur
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:63
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:60
 msgid "Ladmur"
 msgstr ""
 
 #. [side]: type=Orcish Slurbow, id=Gerok
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:86
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:83
 msgid "Gerok"
 msgstr ""
 
 #. [side]: type=Fugitive, id=Relmor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:108
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:105
 msgid "Relmor"
 msgstr ""
 
 #. [side]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:129
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:126
 msgid "team_name^Dragons"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:295
-msgid "Huh…if that's the exit it's <i>really</i> dark…and…wet. Ugh. Probably something waiting for us, too."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:291
+msgid "Huh...if that's the exit it's <i>really</i> dark...and...wet. Ugh. Probably something waiting for us, too."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:300
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:296
 msgid "We've got to go out there; we have no other choice but to sit there doing nothing!"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:305
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:301
 msgid "<i>(grumble)</i>"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:310
-msgid "Please…stop bickering you two. Let's just get out there and hope to get some answers. Plus, I like rain."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:306
+msgid "Please...stop bickering you two. Let's just get out there and hope to get some answers. Plus, I like rain."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:315
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:311
 msgid "Great! Don't you know dwarves hate water? <i>(mumble)</i>"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:320
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:316
 msgid "<i>(rolls eyes)</i>"
 msgstr ""
 
 #. [event]: id=messenger (53) (35)}
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:324
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:320
 msgid "Explore outside"
 msgstr ""
 
 #. [message]: speaker=Ladmur
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:346
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:342
 msgid "Well well well! Look what we have here. Three little prisoners who have lost their way."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:351
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:347
 msgid "Shut up and tell us why we're here."
 msgstr ""
 
 #. [message]: speaker=Ladmur
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:356
-msgid "Heeheehee. You want answers? Well…I dunno…. I think you'll just have to find them yourselves."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:352
+msgid "Heeheehee. You want answers? Well...I dunno.... I think you'll just have to find them yourselves."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:361
-msgid "Common…I know you know something."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:357
+msgid "Common...I know you know something."
 msgstr ""
 
 #. [message]: speaker=Ladmur
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:366
-msgid "Er…oh just keep quiet pretty."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:362
+msgid "Er...oh just keep quiet pretty."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:371
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:367
 msgid "Why, are you afraid of me?"
 msgstr ""
 
 #. [message]: speaker=Ladmur
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:376
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:372
 msgid "Just...just shut up."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:381
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:377
 msgid "We'll find them. And you shut up."
 msgstr ""
 
 #. [message]: speaker=Ladmur
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:386
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:382
 msgid "Hehehehe. You don't even know where you <i>are</i> HAHAHAHAHA."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:392
-msgid "The adept burst out laughing, seemingly at some inside joke, while the three looked on blankly…"
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:388
+msgid "The adept burst out laughing, seemingly at some inside joke, while the three looked on blankly..."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:422
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:418
 msgid "This is going to take longer than I thought it would..."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:427
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:423
 msgid "Get used to it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:441
-msgid "<i>*gasp* (whispering)</i> Please… don't…"
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:437
+msgid "<i>*gasp* (whispering)</i> Please... don't..."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:446
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:442
 msgid "Why not?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:451
-msgid "<i>(whispering)</i> I can help you. I never wanted to fight for these… abominations."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:447
+msgid "<i>(whispering)</i> I can help you. I never wanted to fight for these... abominations."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:456
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:452
 msgid "What?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:461
-msgid "<i>(whispering)</i> Leave it to me; use my troops. <i>(louder)</i> Aggggghhhh… Curse you!"
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:457
+msgid "<i>(whispering)</i> Leave it to me; use my troops. <i>(louder)</i> Aggggghhhh... Curse you!"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:477
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:473
 msgid "<i>(aside)</i> I don't know is he is on our side or not; I don't think we should trust him..."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:482
-msgid "<i>(aside)</i> *nods* But we need the troops… It would help us out a lot."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:478
+msgid "<i>(aside)</i> *nods* But we need the troops... It would help us out a lot."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:487
-msgid "<i>(aside)</i> True… Fine, then; let us use them."
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:483
+msgid "<i>(aside)</i> True... Fine, then; let us use them."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:492
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:488
 msgid "Dark artist scum..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:517
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:513
 msgid "Ahhh! Seems that adept left us some gold. Excellent."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:535
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:531
 msgid "Ah...death...I cannot see...what you wish..."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:540
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:536
 msgid "What in the King's name are you babbling about?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:549
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:545
 msgid "You will never escape. This is your...worst nightmare. You will see..you will see...very soon <i>(augh)</i>"
 msgstr ""
 
 #. [event]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:589
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:585
 msgid "Stored possible spawn locations"
 msgstr ""
 
 #. [event]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:614
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:610
 msgid "Stored possible border hexes"
 msgstr ""
 
 #. [then]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:626
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:622
 msgid "Lower right quadrant used for spawn"
 msgstr ""
 
 #. [then]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:634
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:630
 msgid "Upper right quadrant used for spawn"
 msgstr ""
 
 #. [else]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:638
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:634
 msgid "Other quadrant used for spawn"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:670
-msgid "I feel uneasy… We should leave. Now. HURRY!!!"
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:666
+msgid "I feel uneasy... We should leave. Now. HURRY!!!"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:675
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:671
 msgid "Aye, lass. 'Tis true."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:680
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:676
 msgid "The mountain pass. Go!."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:685
-msgid "Uh…which one?"
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:681
+msgid "Uh...which one?"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:690
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:686
 msgid "Doesn't matter, just go!"
 msgstr ""
 
 #. [event]
-#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:710
+#: ./NX-RPG/episode1/scenarios/02_Unknown_Land.cfg:706
 msgid "Escape through one of the mountain passes"
 msgstr ""
 
 #. [scenario]: id=03_Fleeing_the_Swarm
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:8
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:5
 msgid "Fleeing the Swarm"
 msgstr ""
 
 #. [side]: id=Rarok
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:33
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:30
 msgid "Rarok"
 msgstr ""
 
 #. [side]
 #. [side]: id=Rarok
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:36 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:62
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:33 ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:59
 msgid "team_name^Enemies"
 msgstr ""
 
 #. [side]: id=Dulaithol
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:50
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:47
 msgid "Dulaithol"
 msgstr ""
 
 #. [side]: id=Dulaithol
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:54
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:51
 msgid "team_name^Dwarves"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:77
-msgid "Well … I enjoy the mountains, but I would really like some caves."
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:73
+msgid "Well ... I enjoy the mountains, but I would really like some caves."
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:82
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:78
 msgid "<i>(rolls eyes)</i> In case you've forgotten, we're on the run from a horde flesh-eating bats, and you're complaining about the lack of caves?!"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:87
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:83
 msgid "We could, er, <i>hide</i> in them?"
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:92
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:88
 msgid "Good point. But I don't see any, nor have I seen any since we escaped that prison, so maybe we should keep moving before we get eaten?"
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:97
-msgid "Eh … good point"
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:93
+msgid "Eh ... good point"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:102
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:98
 msgid "<i>(rolls eyes again)</i>"
 msgstr ""
 
 #. [event]
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:106
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:102
 msgid "Continue through the pass"
 msgstr ""
 
 #. [message]: speaker=Rhyan
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:133
-msgid "No! We've delayed too long, and now we have to deal with swarms of bats! I hate bats…"
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:129
+msgid "No! We've delayed too long, and now we have to deal with swarms of bats! I hate bats..."
 msgstr ""
 
 #. [message]: speaker=Galamor
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:144
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:140
 msgid "We still might be able to, if we can reach the cave. Maybe the dwarves know a hidden passage. If not..."
 msgstr ""
 
 #. [message]: speaker=Norethial
-#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:149
+#: ./NX-RPG/episode1/scenarios/03_Fleeing_the_Swarm.cfg:145
 msgid "So let's go, or we're dead!"
 msgstr ""
 
@@ -948,7 +948,7 @@ msgstr ""
 
 #. [part]
 #: ./NX-RPG/episode1/storytext.cfg:59
-msgid "We had found nothing. The place had been guarded - reasonable well, too - and yet…nothing. We still did not know who had brought us here, for what purpose, what was going to become of us next, or even why we were still alive. Our only clue was a faint sense of … unease, unbalance, something wrong - that was the only way we could describe it. There was something something seeming to run through the essence of our surroundings, an undercurrent of … evil … I wondered whether it was the influence Galthur had mentioned before he died. He had spoken of the Camran Fortress; that bothered me. We had killed the thing that had resided there ... at least we thought we had ..."
+msgid "We had found nothing. The place had been guarded - reasonable well, too - and yet...nothing. We still did not know who had brought us here, for what purpose, what was going to become of us next, or even why we were still alive. Our only clue was a faint sense of ... unease, unbalance, something wrong - that was the only way we could describe it. There was something something seeming to run through the essence of our surroundings, an undercurrent of ... evil ... I wondered whether it was the influence Galthur had mentioned before he died. He had spoken of the Camran Fortress; that bothered me. We had killed the thing that had resided there ... at least we thought we had ..."
 msgstr ""
 
 #. [part]
@@ -967,53 +967,73 @@ msgid "They continued following us as we headed through the mountains. In fact, 
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:359
+#: ./NX-RPG/lua/gui/character_development.lua:357
 msgid "Classes"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:366
+#: ./NX-RPG/lua/gui/character_development.lua:364
 msgid "Alignments"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:373
+#: ./NX-RPG/lua/gui/character_development.lua:371
 msgid "Traits"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:380
+#: ./NX-RPG/lua/gui/character_development.lua:378
 msgid "Here you can choose a Class, Alignment, and Trait for the currently selected character. Select one option from each category. When you're satisfied, click Done. You cannot change your selections afterwards."
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:425
+#: ./NX-RPG/lua/gui/character_development.lua:392
+msgid "Character Development"
+msgstr ""
+
+#. [lua]: wml_actions.develop_character
+#: ./NX-RPG/lua/gui/character_development.lua:423
 msgid "Done"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:426
+#: ./NX-RPG/lua/gui/character_development.lua:424
 msgid "Apply the currently selected options to the selected character and exit"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:427
+#: ./NX-RPG/lua/gui/character_development.lua:425
 msgid "Cancel"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: ./NX-RPG/lua/gui/character_development.lua:428
+#: ./NX-RPG/lua/gui/character_development.lua:426
 msgid "Exit and return to game without developing the selected character"
 msgstr ""
 
 #. [lua]: wml_actions.show_nx_help
-#: ./NX-RPG/lua/gui/help.lua:320
+#: ./NX-RPG/lua/gui/help.lua:318
 msgid "Topics"
 msgstr ""
 
 #. [lua]: wml_actions.show_nx_help
-#: ./NX-RPG/lua/gui/help.lua:337
+#: ./NX-RPG/lua/gui/help.lua:335
 msgid "Close"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: ./NX-RPG/lua/gui/inventory.lua:102
+msgid "Name"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: ./NX-RPG/lua/gui/inventory.lua:104
+msgid "Quantity"
+msgstr ""
+
+#. [lua]: wml_actions.inventory_controller
+#: ./NX-RPG/lua/gui/inventory.lua:106
+msgid "Active"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
@@ -1022,53 +1042,69 @@ msgid "Welcome to the inventory. Here you can view and manipulate all the items 
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:155
+#: ./NX-RPG/lua/gui/inventory.lua:153
 msgid "Inventory"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:159
+#: ./NX-RPG/lua/gui/inventory.lua:157
 msgid "Items"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:180
+#: ./NX-RPG/lua/gui/inventory.lua:178
 msgid "Use Items"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:181
+#: ./NX-RPG/lua/gui/inventory.lua:179
 msgid "Apply the currently selected items' effects to the current unit and any other applicable units"
 msgstr ""
 
+#. [lua]: select_category_effect
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:183
+#: ./NX-RPG/lua/gui/inventory.lua:181 ./NX-RPG/lua/gui/inventory.lua:279
 msgid "Give Items"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:184
+#: ./NX-RPG/lua/gui/inventory.lua:182
 msgid "Move the currently selected items the appropriate inventories"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:186
+#: ./NX-RPG/lua/gui/inventory.lua:184
 msgid "Drop Items"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:187
+#: ./NX-RPG/lua/gui/inventory.lua:185
 msgid "Drop the currently selected items. This will remove them from the any applicable inventories and place them in a chest for your allies to pick up"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:189
+#: ./NX-RPG/lua/gui/inventory.lua:187
 msgid "Exit"
 msgstr ""
 
 #. [lua]: wml_actions.inventory_controller
-#: ./NX-RPG/lua/gui/inventory.lua:190
+#: ./NX-RPG/lua/gui/inventory.lua:188
 msgid "Exit the inventory and resume regular gameplay"
+msgstr ""
+
+#. [lua]: inventory_preshow
+#: ./NX-RPG/lua/gui/inventory.lua:197
+msgid "Your Items"
+msgstr ""
+
+#. [lua]: inventory_preshow
+#: ./NX-RPG/lua/gui/inventory.lua:208
+msgid "%s’s Items"
+msgstr ""
+
+#. [lua]: select_category_effect
+#: ./NX-RPG/lua/gui/inventory.lua:281
+msgid "Take Items"
 msgstr ""
 
 #. [lua]: wml_actions.pick_up_item
@@ -1098,48 +1134,48 @@ msgid "Varuk"
 msgstr ""
 
 #. [object]
-#: ./NX-RPG/macros/items.cfg:24
+#: ./NX-RPG/macros/items.cfg:31
 msgid "Chest with gold"
 msgstr ""
 
 #. [object]
-#: ./NX-RPG/macros/items.cfg:27
+#: ./NX-RPG/macros/items.cfg:34
 msgid " gold found."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./NX-RPG/macros/items.cfg:67
+#: ./NX-RPG/macros/items.cfg:74
 msgid "Would you like to take this magical ring?"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: ./NX-RPG/macros/items.cfg:69
+#: ./NX-RPG/macros/items.cfg:76
 msgid "I'll leave it for another."
 msgstr ""
 
 #. [option]: speaker=narrator
-#: ./NX-RPG/macros/items.cfg:75
+#: ./NX-RPG/macros/items.cfg:82
 msgid "I think I'll take and use it."
 msgstr ""
 
 #. [object]
-#: ./NX-RPG/macros/items.cfg:82
+#: ./NX-RPG/macros/items.cfg:89
 msgid "Ring of Defense"
 msgstr ""
 
 #. [object]
-#: ./NX-RPG/macros/items.cfg:84
+#: ./NX-RPG/macros/items.cfg:91
 msgid "You have found a strange, glowing ring. Wearing it will give its bearer +5% defense on all terrains."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./NX-RPG/macros/items.cfg:111
+#: ./NX-RPG/macros/items.cfg:118
 msgid "As the unit puts on the the ring, he feels a surge of new strength."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./NX-RPG/macros/items.cfg:123
-msgid "This is amazing! I…feel stronger! I wonder who the crafter was…"
+#: ./NX-RPG/macros/items.cfg:130
+msgid "This is amazing! I...feel stronger! I wonder who the crafter was..."
 msgstr ""
 
 #. [print]
@@ -1165,6 +1201,17 @@ msgid ""
 "All feedback is welcome in the forum thread here: r.wesnoth.org/t35544 .\n"
 "\n"
 "    ― <i>The author</i>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. [unit_type]: id=Gate, race=mechanical
+#: ./NX-RPG/macros/scenario-utils.cfg:106 ./NX-RPG/units/mechanical/Gate.cfg:5
+msgid "Gate"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./NX-RPG/macros/scenario-utils.cfg:108
+msgid "This gate is locked"
 msgstr ""
 
 #. [time]: id=indoors_darker
@@ -1334,7 +1381,7 @@ msgstr ""
 
 #. [value]: id=cleric
 #: ./NX-RPG/rpg_systems/character_development/classes.cfg:16
-msgid "Clerics excel at melee combat."
+msgid "Clerics excel at melee combat and have access to magical abilities"
 msgstr ""
 
 #. [value]: id=ranger
@@ -1354,7 +1401,7 @@ msgstr ""
 
 #. [value]: id=mage
 #: ./NX-RPG/rpg_systems/character_development/classes.cfg:28
-msgid "Mages excel at ranged combat."
+msgid "Mages excel at ranged combat and have access to magical abilities"
 msgstr ""
 
 #. [value]: id=rouge_warrior
@@ -1374,7 +1421,7 @@ msgstr ""
 
 #. [value]: id=rouge_mage
 #: ./NX-RPG/rpg_systems/character_development/classes.cfg:40
-msgid "Rogue Mages excel at ranged combat, yet are still proficient in melee combat."
+msgid "Rogue Mages excel at ranged combat and have access to magical abilities, yet are still proficient in melee combat"
 msgstr ""
 
 #. [value]: id=strong
@@ -1388,77 +1435,77 @@ msgid "+2 melee damage"
 msgstr ""
 
 #. [value]: id=dextrous
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:25
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:20
 msgid "Dextrous"
 msgstr ""
 
 #. [value]: id=dextrous
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:27
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:22
 msgid "+2 ranged damage"
 msgstr ""
 
 #. [value]: id=resilient
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:42
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:32
 msgid "Resilient"
 msgstr ""
 
 #. [value]: id=resilient
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:44
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:34
 msgid "Regenerates 8 hitpoints per turn"
 msgstr ""
 
 #. [regenerate]: id=regenerates
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:54 ./NX-RPG/rpg_systems/herodevel.cfg:560
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:41 ./NX-RPG/rpg_systems/herodevel.cfg:560
 msgid "regenerates"
 msgstr ""
 
 #. [regenerate]: id=regenerates
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:55 ./NX-RPG/rpg_systems/herodevel.cfg:561
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:42 ./NX-RPG/rpg_systems/herodevel.cfg:561
 msgid "female^regenerates"
 msgstr ""
 
 #. [regenerate]: id=regenerates
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:56
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:43
 msgid "Regenerates: The unit will heal itself 8 HP per turn. If it is poisoned, the poison will be removed instead of being healed."
 msgstr ""
 
 #. [value]: id=quick
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:68
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:53
 msgid "Quick"
 msgstr ""
 
 #. [value]: id=quick
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:70
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:55
 msgid "+1 movement point"
 msgstr ""
 
 #. [value]: id=intelligent
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:84
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:64
 msgid "Intelligent"
 msgstr ""
 
 #. [value]: id=intelligent
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:86
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:66
 msgid "+2 ability points"
 msgstr ""
 
 #. [value]: id=cave_explorer
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:93
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:73
 msgid "Cave Explorer"
 msgstr ""
 
 #. [value]: id=cave_explorer
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:95
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:75
 msgid "Reduce movement cost on hills and caves to 1, 50% defense on said terrains"
 msgstr ""
 
 #. [value]: id=swimmer
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:113
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:88
 msgid "Swimmer"
 msgstr ""
 
 #. [value]: id=swimmer
-#: ./NX-RPG/rpg_systems/character_development/traits.cfg:115
+#: ./NX-RPG/rpg_systems/character_development/traits.cfg:90
 msgid "Reduce movement cost on shallow and deep water to 1, 50% defense on said terrains"
 msgstr ""
 
@@ -1994,7 +2041,7 @@ msgstr ""
 
 #. [label]
 #. [terrain_type]: id=shop
-#: ./NX-RPG/rpg_systems/shop/utils.cfg:16 ./NX-RPG/utils/terrain.cfg:74
+#: ./NX-RPG/rpg_systems/shop/utils.cfg:16 ./NX-RPG/utils/terrain.cfg:94
 msgid "Shop"
 msgstr ""
 
@@ -2413,11 +2460,6 @@ msgid "fist"
 msgstr ""
 
 #. [unit_type]: id=Gate, race=mechanical
-#: ./NX-RPG/units/mechanical/Gate.cfg:5
-msgid "Gate"
-msgstr ""
-
-#. [unit_type]: id=Gate, race=mechanical
 #: ./NX-RPG/units/mechanical/Gate.cfg:19
 msgid "The gate will open only to those who are allied with its owners, unless struck down by their enemies first."
 msgstr ""
@@ -2493,43 +2535,53 @@ msgstr ""
 msgid "Gate (sw)"
 msgstr ""
 
-#. [terrain_type]: id=abyss-volcanic
+#. [terrain_type]: id=gate_se
 #: ./NX-RPG/utils/terrain.cfg:32
+msgid "Locked Gate (se)"
+msgstr ""
+
+#. [terrain_type]: id=gate_sw
+#: ./NX-RPG/utils/terrain.cfg:42
+msgid "Locked Gate (sw)"
+msgstr ""
+
+#. [terrain_type]: id=abyss-volcanic
+#: ./NX-RPG/utils/terrain.cfg:52
 msgid "Volcanic Abyss"
 msgstr ""
 
 #. [terrain_type]: id=overlay-campfire
-#: ./NX-RPG/utils/terrain.cfg:42
+#: ./NX-RPG/utils/terrain.cfg:62
 msgid "Campfire"
 msgstr ""
 
 #. [terrain_type]: id=brazier_lit
-#: ./NX-RPG/utils/terrain.cfg:53
+#: ./NX-RPG/utils/terrain.cfg:73
 msgid "Lit Brazier"
 msgstr ""
 
 #. [terrain_type]: id=brazier
-#: ./NX-RPG/utils/terrain.cfg:64
+#: ./NX-RPG/utils/terrain.cfg:84
 msgid "Brazier"
 msgstr ""
 
 #. [terrain_type]: id=dark-castle
-#: ./NX-RPG/utils/terrain.cfg:84
+#: ./NX-RPG/utils/terrain.cfg:104
 msgid "Dark Castle"
 msgstr ""
 
 #. [terrain_type]: id=dark-keep
-#: ./NX-RPG/utils/terrain.cfg:97
+#: ./NX-RPG/utils/terrain.cfg:117
 msgid "Dark Keep"
 msgstr ""
 
 #. [terrain_type]: id=floor_glowing
-#: ./NX-RPG/utils/terrain.cfg:110
+#: ./NX-RPG/utils/terrain.cfg:130
 msgid "Glowing Flagstones"
 msgstr ""
 
 #. [terrain_type]: id=floor_tiled_dark
-#: ./NX-RPG/utils/terrain.cfg:120
+#: ./NX-RPG/utils/terrain.cfg:140
 msgid "Dark Tiled Floor"
 msgstr ""
 
