@@ -1,4 +1,50 @@
 NX-RPG/Revenge from the Shadows: Changelog
+==========================================
+
+Version 0.2.9
+-------------
+* Scenarios
+  * E1S1
+    * Redesigned the corridor at the beginning, plus some other misc map tweaks
+    * Improved some dialog
+    * Make shroud clear in a straighter line when the first gates are knocked down
+    * Made use of some of the new custom WML tags
+    * Made use of locked gate terrains
+  * E1S2
+    * Fixed a bug where the sound source didn't play
+
+* Lua
+  * Fixed some translatability issues
+  * Fixed an error in [check_inventory] that appeared every time you killed a unit
+  * Allowed [check_inventory]'s filter to fallback to 'id = $unit.id' if no [filter] tag
+    is found
+  * Allowed [check_inventory] to set the var 'has_(item)' and exit if no [then] tag
+    is found
+  * Fixed a bug that caused [add_status_icon] to fail when used
+  * Split [add_status_icon] into two functions: an internal lua function for access in lua 
+    files and a wml_actions frontend for use in WML files
+  * New WML tags: [setup_gates], [unlock_gates]. The former is a replacement for
+    {DOOR_TILES_TO_UNITS}, the latter converts locked gates to regular gates
+  * GUI
+    * Fixed some errors that prevented the character development dialog from opening
+    * The character development dialog now sets a trait for the selected class and trait
+      and sets the selected alignment when exiting via the 'Done' button
+    * Used a unit's name for strings using said value that are displayed to the player
+      instead of unit.id
+    * Unlocked the new character development dialog. This replaces the old system, and
+      has different class choices
+
+* Graphics
+  * Terrains
+    * New or updated terrains: Fake Shroud, Locked Gate, Stone Floor
+    * New terrain graphics macro: {TRANSITION_OVERLAY_L}
+
+* General code
+  * General macro updates and additions
+  * Killed the {INITIATE_SCEN_VARS} stuff
+  * Updated the gettext-helper file (mainline-strings.cfg)
+  * Fixed a bug that causes pre processor errors when a macro from mainline-strings.cfg
+    is used in a editor-loaded file
 
 Version 0.2.8a
 --------------

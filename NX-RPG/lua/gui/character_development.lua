@@ -39,7 +39,7 @@ function wml_actions.develop_character(cfg)
 					       fixed_width = "true" },
 			      T.grid { T.row { grow_factor = 1,
 					       T.column { T.spacer { definition = "default" } },
-					       T.column { border = "left, top, bottom", border_size = 5, horizontal_alignment = "left", T.label { definition = "title", label = "Character Development" } } },
+					       T.column { border = "left, top, bottom", border_size = 5, horizontal_alignment = "left", T.label { definition = "title", label = _"Character Development" } } },
 				       T.row { T.column { T.spacer { definition = "default" } },
 					       T.column { border = "left, right, bottom", border_size = 5, horizontal_grow = "true", instructions } },
 				       T.row { grow_factor = 1,
@@ -76,41 +76,38 @@ function wml_actions.develop_character(cfg)
 															     tooltip = _"Exit and return to game without developing the selected character" } } } } } } } } } } }
 
 	local function char_devel_preshow()
-		local function nx.print_list(list, max_index)
+		local function print_list(list, max_index)
 			for i = 1, max_index do
-				local name = wesnoth.get_variable(string.format("%s[%d].name", "character_development." .. list, i - 1))
-				local image = wesnoth.get_variable(string.format("%s[%d].image", "character_development." .. list, i - 1))
+				local name = wesnoth.get_variable(string.format("%s.%s[%d].name", "character_development", list, i - 1))
+				local image = wesnoth.get_variable(string.format("%s.%s[%d].image", "character_development", list, i - 1))
 
-				wesnoth.set_dialog_value(image, list .. "_list", i, list "_image")
-				wesnoth.set_dialog_value(name, list .. "_list", i, list "_name")
+				wesnoth.set_dialog_value(image, list .. "_list", i, string.format("%s%s", list, "_image"))
+				wesnoth.set_dialog_value(name, list .. "_list", i, string.format("%s%s", list, "_name"))
 			end
 		end
 
 		-- Prints out the lists
-		nx.print_list("class", 6)
-		nx.print_list("alignment", 4)
-		nx.print_list("trait", 7)
-				
+		print_list("class", 6)
+		print_list("alignment", 4)
+		print_list("trait", 7)
+
 		-- Sets values for the details panel widgets
 		local function select_from_list(list)
 			local i = wesnoth.get_dialog_value(string.format("%s_%s", list, "list"))
 			local section = string.format("%s.%s", "character_development", list)
-			
+
 			wesnoth.set_dialog_value(wesnoth.get_variable(string.format("%s[%d].image", section, i - 1)), "details_image")
-			wesnoth.set_dialog_value(wesnoth.get_variable(string.format("%s[%d].name", section, i - 1)), "details_name")		
+			wesnoth.set_dialog_value(wesnoth.get_variable(string.format("%s[%d].name", section, i - 1)), "details_name")
 			wesnoth.set_dialog_value(wesnoth.get_variable(string.format("%s[%d].description", section, i - 1)), "details_description")
-			-- insert any other things that need to be updated here
-		end
 
-		-- Sets the user's choice
-		local function click_done()
-			local u_id = wesnoth.get_variable("unit.id")
+			local class_i = wesnoth.get_dialog_value("class_list")
+			local alignment_i = wesnoth.get_dialog_value("alignment_list")
+			local trait_i = wesnoth.get_dialog_value("trait_list")
 
-			wesnoth.set_variable(string.format("%s%s", "character_developed_", u_id), "true")
-			wesnoth.set_variable(string.format("%s.%s", u_id, "class"), wesnoth.get_variable(string.format("character_development.class[$d].id", wesnoth.get_dialog_value("class_list"))))
-			wesnoth.set_variable(string.format("%s.%s", u_id, "alignment"), wesnoth.get_variable(string.format("character_development.alignment[$d].id", wesnoth.get_dialog_value("alignment_list"))))
-			wesnoth.set_variable(string.format("%s.%s", u_id, "trait"), wesnoth.get_variable(string.format("character_development.trait[$d].id", wesnoth.get_dialog_value("trait_list"))))
-			
+			wesnoth.set_variable("class_index", class_i - 1)
+			wesnoth.set_variable("alignment_index", alignment_i - 1)
+			wesnoth.set_variable("trait_index", trait_i - 1)
+			-- Insert any other things that need to be updated here
 		end
 
 		-- Callbacks for each list
@@ -118,7 +115,7 @@ function wml_actions.develop_character(cfg)
 		wesnoth.set_dialog_callback(function() select_from_list("alignment") end, "alignment_list")
 		wesnoth.set_dialog_callback(function() select_from_list("trait") end, "trait_list")
 
-		wesnoth.set_dialog_callback(function() click_done() end, "done_button")
+		select_from_list("class")
 	end
 
 	local function sync()
@@ -131,4 +128,29 @@ function wml_actions.develop_character(cfg)
 	end
 
 	local return_table = wesnoth.synchronize_choice(sync)
+
+	-- Actually sets the selected stuff
+	if return_table.return_value == 1 then
+		local u_id = wesnoth.get_variable("unit.id")
+		local unit_being_developed = wesnoth.get_units {id = u_id}[1]
+
+		local class_var = wesnoth.get_variable(string.format("character_development.class[%d]", wesnoth.get_variable("class_index")))
+		local alignment_var = wesnoth.get_variable(string.format("character_development.alignment[%d]", wesnoth.get_variable("alignment_index")))
+		local trait_var = wesnoth.get_variable(string.format("character_development.trait[%d]", wesnoth.get_variable("trait_index")))
+		local trait_effect = wesnoth.get_variable(string.format("character_development.trait[%d].trait_effect", wesnoth.get_variable("trait_index")))
+
+		-- Set selected class
+		wesnoth.set_variable(string.format("%s.%s", u_id, "class"), class_var.id)
+		wesnoth.add_modification(unit_being_developed, "trait", { id = class_var.id, name = class_var.name, description = class_var.description })
+
+		-- Set selected alignment
+		helper.modify_unit({ id = u_id }, { alignment = alignment_var.id })
+
+		-- Set selected trait
+		wesnoth.add_modification(unit_being_developed, "trait", { id = trait_var.id, name = trait_var.name, description = trait_var.description,
+									{ "effect", trait_effect } })
+
+		-- Set completion var
+		wesnoth.set_variable(string.format("%s%s", "character_developed_", u_id), "true")
+	end
 end

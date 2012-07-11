@@ -12,16 +12,16 @@ function wml_actions.inventory_controller(cfg)
 
 	local item_list = T.listbox { id = "inventory_list",
 				      vertical_scrollbar_mode = "always",
-				      T.header { T.row { T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5, 
-								    T.label { id = "check_sort", linked_group = "checkbox", label = "" } },
-							 T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5, 
-							            T.label { id = "image_sort", linked_group = "image", label = "" } },
+				      T.header { T.row { T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
+								    T.label { id = "check_sort", linked_group = "checkbox" } },
 							 T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
-								    T.button { id = "name_sort", linked_group = "name", label = "Name" } },
+							            T.label { id = "image_sort", linked_group = "image" } },
 							 T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
-								    T.label { id = "quantity_sort", linked_group = "quantity", label = "Quantity" } },
+								    T.button { id = "name_sort", linked_group = "name", label = _"Name" } },
 							 T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
-							            T.label { id = "active_sort", linked_group = "active", label = "Active" } } } },
+								    T.label { id = "quantity_sort", linked_group = "quantity", label = _"Quantity" } },
+							 T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
+							            T.label { id = "active_sort", linked_group = "active", label = _"Active" } } } },
 				      T.list_definition { T.row { T.column { vertical_grow = "true", horizontal_grow = "true",
 									     T.toggle_panel { top_border = 20,
 											      T.grid { T.row { T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
@@ -31,7 +31,7 @@ function wml_actions.inventory_controller(cfg)
 													       T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
 					  									          T.label { id = "list_name", definition = "title", linked_group = "name" } },
 													       T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
-															  T.label { id = "list_quantity", linked_group = "quantity" } },	
+															  T.label { id = "list_quantity", linked_group = "quantity" } },
 													       T.column { grow_factor = 1, horizontal_grow = "true", border = "all", border_size = 5,
 															  T.label { id = "list_active", linked_group = "active", label = "yes" } } } } } } } } }
 
@@ -43,11 +43,9 @@ function wml_actions.inventory_controller(cfg)
 	local instructions = T.label { wrap = "true",
 				       label = _"Welcome to the inventory. Here you can view and manipulate all the items you are currently carrying, as well as those carried by allied units adjacent to you. Use the list to the left to choose whose inventory to see and manipulate, and use the checkboxes to the left of each item to select more than one at a time. You can mouse over the buttons for more info on their respective functions." }
 
-	local main_window = { --maximum_height = 700,
-			      --maximum_width = 800,
-			      maximum_height = 900,
+	local main_window = { maximum_height = 900,
 		     	      maximum_width = 1000,
-			      T.helptip { id = "tooltip_large" }, -- mandatory field										
+			      T.helptip { id = "tooltip_large" }, -- mandatory field
 			      T.tooltip { id = "tooltip_large" }, -- mandatory field
 			      T.linked_group { id = "category_images",
 					       fixed_width = "true" },
@@ -114,20 +112,20 @@ function wml_actions.inventory_controller(cfg)
 
 		--Category for the main unit
 		wesnoth.set_dialog_value("items/ball-blue.png", "category_list", 1, "category_image")
-		wesnoth.set_dialog_value("Your Items", "category_list", 1, "category_name")
-		
+		wesnoth.set_dialog_value(_"Your Items", "category_list", 1, "category_name")
+
 		table.insert(which_category_belongs_to_what_unit, { id = wesnoth.get_variable("unit.id") } )
 
 		--Generates other categories for adjacent allied hero units
 		local current_category_index = 2
 		for i = 1, wesnoth.get_variable("units_adjacent_to_unit_using_inventory.length") do
-			local current_id = wesnoth.get_variable(string.format("%s[%d].id", "units_adjacent_to_unit_using_inventory", i - 1 ))
+			local current_unit_id = wesnoth.get_variable(string.format("%s[%d].id", "units_adjacent_to_unit_using_inventory", i - 1 ))
+			local current_unit_name = wesnoth.get_variable(string.format("%s[%d].name", "units_adjacent_to_unit_using_inventory", i - 1 ))
 
 			wesnoth.set_dialog_value("items/ball-magenta.png", "category_list", current_category_index, "category_image")
-			wesnoth.set_dialog_value(string.format("%s%s", current_id, "'s Items"), "category_list", current_category_index, "category_name")
+			wesnoth.set_dialog_value(string.format(tostring(_"%s’s Items"), current_unit_name), "category_list", current_category_index, "category_name")
 
-			--wesnoth.set_variable(string.format("categorty_list_asignment[%d].id", current_category_index ), current_id)
-			table.insert(which_category_belongs_to_what_unit, { id = current_id } )
+			table.insert(which_category_belongs_to_what_unit, { id = current_unit_id } )
 
 			current_category_index = current_category_index + 1
 		end
@@ -141,7 +139,7 @@ function wml_actions.inventory_controller(cfg)
 			local var = string.format("%s.%s", u_id, "inventory")
 			-- Deposit stuff in a table first for easy use later
 			for i = 1, wesnoth.get_variable(var .. ".length") do
-				table.insert(inv_list_data, { image = wesnoth.get_variable(string.format("%s[%d].image", var, i - 1)), 
+				table.insert(inv_list_data, { image = wesnoth.get_variable(string.format("%s[%d].image", var, i - 1)),
 						              name = wesnoth.get_variable(string.format("%s[%d].name", var, i - 1)),
 						              description = wesnoth.get_variable(string.format("%s[%d].description", var, i - 1)),
 						              quantity = wesnoth.get_variable(string.format("%s[%d].quantity", var, i - 1)) })
@@ -196,9 +194,9 @@ function wml_actions.inventory_controller(cfg)
 			local category = wesnoth.get_dialog_value("category_list")
 			-- Set button value
 			if category == 1 then
-				wesnoth.set_dialog_value("Give Items", "give_take_button")
+				wesnoth.set_dialog_value(_"Give Items", "give_take_button")
 			else
-				wesnoth.set_dialog_value("Take Items", "give_take_button")
+				wesnoth.set_dialog_value(_"Take Items", "give_take_button")
 			end
 			-- Refresh item list
 			print_item_list()

@@ -49,7 +49,7 @@ function wml_actions.pick_up_item(cfg)
 
 	local return_table = wesnoth.synchronize_choice(sync)
 	if return_table.return_value == 1 or return_table.return_value == -1 then
-		local u_id = wesnoth.get_variable("unit.id") 
+		local u_id = wesnoth.get_variable("unit.id")
 		local check_var = string.format("%s.%s", u_id, "inventory")
 
 		for i = 1, wesnoth.get_variable(check_var .. ".length") do

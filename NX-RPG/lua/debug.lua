@@ -12,7 +12,7 @@ function wml_actions.check_for_character(cfg)
 	if not wesnoth.eval_conditional( { { "have_unit", { side = 1, id = cfg.id } } } ) then
 		wml_actions.unit(cfg)
 	end
-        
+
 	if not wesnoth.get_variable(cfg.id .. ".class") then
 		wesnoth.set_variable("char_devel_temp_id", cfg.id)
 		wesnoth.fire_event("herodevel")
