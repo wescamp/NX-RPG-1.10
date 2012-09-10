@@ -37,14 +37,10 @@ CATALOGS = @CATALOGS@
 
 # Makevars gets inserted here. (Don't remove this line!)
 
-.SUFFIXES: .po .gmo .mo .sed .sin .nop .po-update
+.SUFFIXES: .po .gmo .sed .sin .nop .po-update
 
 all:
 	@echo "Run make in the directory below instead"
-
-.po.mo:
-	@echo "$(MSGFMT) -c -o $@ $<"; \
-	$(MSGFMT) -c -o t-$@ $< && mv t-$@ $@
 
 .po.gmo:
 	@lang=`echo $* | sed -e 's,.*/,,'`; \
@@ -92,6 +88,10 @@ $(DOMAIN).pot-update: $(srcdir)/remove-potcdate.sed
 	    mv $(DOMAIN).po $(srcdir)/$(DOMAIN).pot; \
 	  fi; \
 	}
+	if test 1 -qe `grep msgid $(srcdir)/$(DOMAIN).pot | wc -l`; then \
+	  echo "Translation catalog empty" >&2; \
+	  exit 1; \
+	fi;
 
 # This rule has no dependencies: we don't need to update $(DOMAIN).pot at
 # every "make" invocation, only create it when it is missing.
@@ -121,9 +121,9 @@ mostlyclean:
 	rm -f *.wml.po
 
 clean: mostlyclean
+	rm -f Makefile
 
 distclean: clean
-	rm -f Makefile *.mo
 
 update-po:
 	$(MAKE) $(DOMAIN).pot-update
