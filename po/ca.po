@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NX-RPG-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:02-0400\n"
+"POT-Creation-Date: 2012-09-23 01:40+0200\n"
 "PO-Revision-Date: 2012-06-30 09:29-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1176,22 +1176,22 @@ msgid ""
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:357
+#: NX-RPG/lua/gui/character_development.lua:319
 msgid "Classes"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:364
+#: NX-RPG/lua/gui/character_development.lua:326
 msgid "Alignments"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:371
+#: NX-RPG/lua/gui/character_development.lua:333
 msgid "Traits"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:378
+#: NX-RPG/lua/gui/character_development.lua:340
 msgid ""
 "Here you can choose a Class, Alignment, and Trait for the currently selected "
 "character. Select one option from each category. When you're satisfied, "
@@ -1199,37 +1199,37 @@ msgid ""
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:392
+#: NX-RPG/lua/gui/character_development.lua:354
 msgid "Character Development"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:423
+#: NX-RPG/lua/gui/character_development.lua:385
 msgid "Done"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:424
+#: NX-RPG/lua/gui/character_development.lua:386
 msgid "Apply the currently selected options to the selected character and exit"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:425
+#: NX-RPG/lua/gui/character_development.lua:387
 msgid "Cancel"
 msgstr ""
 
 #. [lua]: wml_actions.develop_character
-#: NX-RPG/lua/gui/character_development.lua:426
+#: NX-RPG/lua/gui/character_development.lua:388
 msgid "Exit and return to game without developing the selected character"
 msgstr ""
 
 #. [lua]: wml_actions.show_nx_help
-#: NX-RPG/lua/gui/help.lua:318
+#: NX-RPG/lua/gui/help.lua:474
 msgid "Topics"
 msgstr ""
 
 #. [lua]: wml_actions.show_nx_help
-#: NX-RPG/lua/gui/help.lua:335
+#: NX-RPG/lua/gui/help.lua:491
 msgid "Close"
 msgstr ""
 
